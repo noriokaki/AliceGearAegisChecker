@@ -1,0 +1,20 @@
+{
+   "list": [
+      {
+         "name": "比良坂  夜露",
+         "type": "electric"
+      },
+      {
+         "name": "兼志谷  シタラ",
+         "type": "gravity"
+      },
+      {
+         "name": "日向  リン",
+         "type": "heat"
+      },
+      {
+         "name": "百科  文嘉",
+         "type": "freeze"
+      }
+   ]
+}
