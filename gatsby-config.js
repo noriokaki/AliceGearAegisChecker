@@ -1,7 +1,7 @@
 /* eslint-disable */
 module.exports = {
    siteMetadata: {
-      title: `アリス・ギア・アイギス アクトレス所属率チェッカー`,
+      title: `アリス・ギア・アイギス 所属率チェッカー`,
       description: `アリス・ギア・アイギスのアクトレスの所属率チェッカーです。`,
       author: `@noriokaki`,
    },
