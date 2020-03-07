@@ -1,14 +1,15 @@
 import { Link } from "gatsby";
 import React from "react";
+import { BackgroundColor, TextColor } from "./palette";
 
 type Props = {
    siteTitle: string;
 };
 
-const Header = ({ siteTitle = "" }: Props): JSX.Element => (
+const Header = ({ siteTitle }: Props): JSX.Element => (
    <header
       style={{
-         background: `rebeccapurple`,
+         background: BackgroundColor.DefaultPrimary,
          marginBottom: `1.45rem`,
       }}
    >
@@ -16,6 +17,7 @@ const Header = ({ siteTitle = "" }: Props): JSX.Element => (
          style={{
             margin: `0 auto`,
             maxWidth: 960,
+            minWidth: 300,
             padding: `1.45rem 1.0875rem`,
          }}
       >
@@ -23,7 +25,7 @@ const Header = ({ siteTitle = "" }: Props): JSX.Element => (
             <Link
                to="/"
                style={{
-                  color: `white`,
+                  color: TextColor.LightPrimary,
                   textDecoration: `none`,
                }}
             >

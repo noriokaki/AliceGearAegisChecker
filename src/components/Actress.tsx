@@ -11,14 +11,19 @@ const Actress = ({ imagePath = image, name, onClick }: Props): JSX.Element => {
    const [active, setActive] = useState(false);
    return (
       <div
+         style={{
+            border: "1px solid",
+            borderRadius: "10px",
+            overflow: "hidden",
+         }}
          onClick={(): void => {
             setActive(!active);
             onClick;
          }}
       >
          {/* TODO gatsby-imageを使う方法に直す */}
-         <img src={imagePath} />
-         <div>{name}</div>
+         <img src={imagePath} style={{ opacity: active ? 1 : 0.5 }} />
+         <div style={{ textAlign: "center" }}>{name}</div>
       </div>
    );
 };
