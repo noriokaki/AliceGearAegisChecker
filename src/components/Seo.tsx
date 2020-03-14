@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
@@ -8,6 +9,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
+const image = require("../../assets/images/icon.png");
 
 type Props = {
    description?: string;
@@ -60,6 +62,10 @@ function SEO({
             {
                property: `og:type`,
                content: `website`,
+            },
+            {
+               name: `og:image`,
+               content: image,
             },
             {
                name: `twitter:card`,
