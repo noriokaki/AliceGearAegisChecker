@@ -43,7 +43,7 @@ const ActressImage = ({
       // 指定した画像ファイルパス（コンポーネントのプロパティ）と
       // 一致するgatsby-image用の情報を取得
       const image = query.images.edges.find((n) => {
-         return n.node.relativePath.includes(filename);
+         return n.node.name === filename;
       });
       setImage(image);
    }, []);
