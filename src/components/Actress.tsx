@@ -8,7 +8,7 @@ type Props = {
    dispatch: Dispatch<ActionType>;
 };
 const Actress = ({ actress, dispatch }: Props): JSX.Element => {
-   const [active, setActive] = useState(false);
+   const [active, setActive] = useState(actress.isSelect);
    const onClickHandler = (): void => {
       setActive(!active);
       if (active) {
