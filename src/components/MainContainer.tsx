@@ -21,6 +21,7 @@ const actressesListItem = (): readonly ActressType[] => {
                   name
                   shortName
                   imagePath
+                  another
                }
             }
          }
@@ -36,6 +37,7 @@ const actressesListItem = (): readonly ActressType[] => {
             attribute: item.node.attribute,
             isSelect: false,
             imagePath: item.node.imagePath,
+            another: item.node.another,
          } as ActressType;
       })
       .filter((v): v is ActressType => v !== null);

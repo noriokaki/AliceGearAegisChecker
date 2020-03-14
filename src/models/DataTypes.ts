@@ -14,6 +14,7 @@ export type ActressType = Readonly<{
    name: string;
    shortName?: string;
    attribute: AttributeType;
+   another?: string;
    isSelect: boolean;
    imagePath?: string;
 }>;
