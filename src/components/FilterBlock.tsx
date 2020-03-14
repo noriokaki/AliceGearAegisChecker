@@ -18,6 +18,7 @@ const FilterBlock = ({ attributeFilter, dispatch }: Props): JSX.Element => {
          style={{
             border: `2px solid ${BorderColor}`,
             borderRadius: "5px",
+            userSelect: "none",
          }}
       >
          <FormLabel component="legend" style={{ marginLeft: "0.5em" }}>
