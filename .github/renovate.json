@@ -1,6 +1,15 @@
 {
+    "separateMajorMinor": false,
     "extends": [
-        "config:base",
-        ":pinAllExceptPeerDependencies"
-    ]
+        ":preserveSemverRanges",
+        "group:all",
+        "schedule:monthly",
+        ":maintainLockFilesMonthly"
+    ],
+    "lockFileMaintenance": {
+        "extends": [
+            "group:all"
+        ],
+        "commitMessageAction": "Update"
+    }
 }

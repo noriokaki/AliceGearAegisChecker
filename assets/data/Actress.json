@@ -1,0 +1,584 @@
+[
+   {
+      "id": "c296567d-dadf-5f9e-818d-e46f304cad24",
+      "name": "比良坂 夜露",
+      "shortName": "比良坂 夜露",
+      "attribute": "electric",
+      "imagePath": "yotuyu_n"
+   },
+   {
+      "id": "524fbde2-634a-51fd-af73-bdd1bffc7abd",
+      "name": "比良坂 夜露",
+      "shortName": "比良坂 夜露",
+      "another": "勇躍",
+      "attribute": "electric",
+      "imagePath": "yotuyu_a"
+   },
+   {
+      "id": "64d1dd5e-a7f5-57fa-9eae-0b49f428d3bd",
+      "name": "兼志谷 シタラ",
+      "shortName": "兼志谷 シタラ",
+      "attribute": "gravity",
+      "imagePath": "sitara_n"
+   },
+   {
+      "id": "fd2779fc-6e4c-54e4-85c0-ddf4353874a6",
+      "name": "兼志谷 シタラ",
+      "shortName": "兼志谷 シタラ",
+      "another": "天機",
+      "attribute": "gravity",
+      "imagePath": "sitara_n"
+   },
+   {
+      "id": "90be9da8-126e-52d6-9194-0954eab0fe63",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "attribute": "heat",
+      "imagePath": "rin_n"
+   },
+   {
+      "id": "cc5a0920-6242-55bf-8254-b6445fa7530a",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "another": "奔放",
+      "attribute": "heat",
+      "imagePath": "rin_a"
+   },
+   {
+      "id": "8bed052f-fa26-5cf7-914e-64483f5f6862",
+      "name": "百科 文嘉",
+      "shortName": "百科 文嘉",
+      "attribute": "freeze",
+      "imagePath": "fumika_n"
+   },
+   {
+      "id": "df1534c0-f647-5440-afc2-c06b7b144329",
+      "name": "百科 文嘉",
+      "shortName": "百科 文嘉",
+      "another": "智将",
+      "attribute": "freeze",
+      "imagePath": "fumika_a"
+   },
+   {
+      "id": "80705fb4-7c64-5675-828c-856485053260",
+      "name": "吾妻 楓",
+      "shortName": "吾妻 楓",
+      "attribute": "electric",
+      "imagePath": "kaede_n"
+   },
+   {
+      "id": "b67644c1-e5d9-5b28-b643-c2d6537114fe",
+      "name": "吾妻 楓",
+      "shortName": "吾妻 楓",
+      "another": "皆伝",
+      "attribute": "electric",
+      "imagePath": "kaede_a"
+   },
+   {
+      "id": "02bbdd80-0124-5ef7-93b1-cf81eac80362",
+      "name": "小鳥遊 怜",
+      "shortName": "小鳥遊 怜",
+      "attribute": "freeze",
+      "imagePath": "rei_n"
+   },
+   {
+      "id": "e33989c6-8970-5936-8277-ec39c3c40168",
+      "name": "小鳥遊 怜",
+      "shortName": "小鳥遊 怜",
+      "another": "蒼穹",
+      "attribute": "freeze",
+      "imagePath": "rei_a"
+   },
+   {
+      "id": "2be48d40-2e9f-5d41-96af-cacda61be3d6",
+      "name": "一条 綾香",
+      "shortName": "一条 綾香",
+      "attribute": "heat",
+      "imagePath": "ayaka_n"
+   },
+   {
+      "id": "a99edaac-193d-5b3d-9af8-49d7f70044af",
+      "name": "一条 綾香",
+      "shortName": "一条 綾香",
+      "another": "英俊",
+      "attribute": "heat",
+      "imagePath": "ayaka_a"
+   },
+   {
+      "id": "0ac797a3-378b-568f-b07d-28bee2f0eb21",
+      "name": "相河 愛花",
+      "shortName": "相河 愛花",
+      "attribute": "electric",
+      "imagePath": "aika_n"
+   },
+   {
+      "id": "45c59373-5d83-55ad-928d-52286b84af70",
+      "name": "相河 愛花",
+      "shortName": "相河 愛花",
+      "another": "仁愛",
+      "attribute": "electric",
+      "imagePath": "aika_a"
+   },
+   {
+      "id": "7d189302-1f2f-5c8b-8c9a-2ce0537461d5",
+      "name": "小芦 睦海",
+      "shortName": "小芦 睦海",
+      "attribute": "freeze",
+      "imagePath": "mutumi_n"
+   },
+   {
+      "id": "be2827cd-ff12-5236-935b-815af41f3a8d",
+      "name": "小芦 睦海",
+      "shortName": "小芦 睦海",
+      "another": "剛毅",
+      "attribute": "freeze",
+      "imagePath": "mutumi_a"
+   },
+   {
+      "id": "bf3cb9cc-d453-5b0b-9b6d-2ebfe328a60b",
+      "name": "二子玉 舞",
+      "shortName": "二子玉 舞",
+      "attribute": "freeze",
+      "imagePath": "mai_n"
+   },
+   {
+      "id": "9eb57a94-32a8-5ed0-981e-470d0945a42b",
+      "name": "二子玉 舞",
+      "shortName": "二子玉 舞",
+      "another": "繊麗",
+      "attribute": "freeze",
+      "imagePath": "mai_a"
+   },
+   {
+      "id": "a83c8598-dfac-502b-b43f-587552df34ca",
+      "name": "バージニア・グリンベレー",
+      "shortName": "バージニア・G",
+      "attribute": "heat",
+      "imagePath": "virginia_n"
+   },
+   {
+      "id": "11f3664e-08e2-52a6-96ff-413ab71bc59b",
+      "name": "バージニア・グリンベレー",
+      "shortName": "バージニア・G",
+      "another": "MOBIUS",
+      "attribute": "heat",
+      "imagePath": "virginia_a"
+   },
+   {
+      "id": "51b87bbf-d0f5-55f1-84d3-a18d8e649b50",
+      "name": "ファティマ・ベトロラム",
+      "shortName": "ファティマ・B",
+      "attribute": "heat",
+      "imagePath": "fatima_n"
+   },
+   {
+      "id": "0fe1fe78-00a3-5fb3-ba7c-385da4329faa",
+      "name": "四谷 ゆみ",
+      "shortName": "四谷 ゆみ",
+      "attribute": "gravity",
+      "imagePath": "yumi_n"
+   },
+   {
+      "id": "7ba34cc4-076d-577c-8765-66946bec9d4e",
+      "name": "四谷 ゆみ",
+      "shortName": "四谷 ゆみ",
+      "another": "絢爛",
+      "attribute": "gravity",
+      "imagePath": "yumi_a"
+   },
+   {
+      "id": "c3a7d771-bfca-5528-8763-4b60ee408362",
+      "name": "藤野 やよい",
+      "shortName": "藤野 やよい",
+      "attribute": "heat",
+      "imagePath": "yayoi_n"
+   },
+   {
+      "id": "ab333ca8-32f7-5c8e-9410-7c670c5d4796",
+      "name": "藤野 やよい",
+      "shortName": "藤野 やよい",
+      "another": "無常",
+      "attribute": "heat",
+      "imagePath": "yayoi_a"
+   },
+   {
+      "id": "4fda603f-613c-5a6d-814e-72668eb4e6ab",
+      "name": "下落合 桃歌",
+      "shortName": "下落合 桃歌",
+      "attribute": "electric",
+      "imagePath": "touka_n"
+   },
+   {
+      "id": "09a1fc35-5efc-5212-b0c2-9568ed6539c5",
+      "name": "下落合 桃歌",
+      "shortName": "下落合 桃歌",
+      "another": "明星",
+      "attribute": "electric",
+      "imagePath": "touka_a"
+   },
+   {
+      "id": "6c3d36fe-1fc6-5362-9d1a-45060c6c37a8",
+      "name": "シャーリー・オークレイ",
+      "shortName": "シャーリー・O",
+      "attribute": "electric",
+      "imagePath": "shirley_n"
+   },
+   {
+      "id": "2351eb07-c832-5b2d-b40c-759adcc65911",
+      "name": "依城 えり",
+      "shortName": "依城 えり",
+      "attribute": "freeze",
+      "imagePath": "eri_n"
+   },
+   {
+      "id": "7532bc8d-2eb3-5d28-9b85-e263a4727778",
+      "name": "依城 えり",
+      "shortName": "依城 えり",
+      "another": "清廉",
+      "attribute": "freeze",
+      "imagePath": "eri_a"
+   },
+   {
+      "id": "cd00dee0-a890-58f8-889c-ac27146f2cb3",
+      "name": "文島 明日翔",
+      "shortName": "文島 明日翔",
+      "attribute": "heat",
+      "imagePath": "asuka_n"
+   },
+   {
+      "id": "2a9043cb-e219-53a5-84a9-141631192fee",
+      "name": "大関 小結",
+      "shortName": "大関 小結",
+      "attribute": "gravity",
+      "imagePath": "koyui_n"
+   },
+   {
+      "id": "ec0f131c-beac-5402-a0b1-94bc15628d76",
+      "name": "大関 小結",
+      "shortName": "大関 小結",
+      "another": "豊潤",
+      "attribute": "gravity",
+      "imagePath": "koyui_a"
+   },
+   {
+      "id": "2266bbec-6847-574b-bc2a-652805eb75af",
+      "name": "宇佐元 杏奈",
+      "shortName": "宇佐元 杏奈",
+      "attribute": "electric",
+      "imagePath": "anna_n"
+   },
+   {
+      "id": "c450acd0-0932-5152-bdda-b4a0024f7de8",
+      "name": "宇佐元 杏奈",
+      "shortName": "宇佐元 杏奈",
+      "another": "希求",
+      "attribute": "electric",
+      "imagePath": "anna_a"
+   },
+   {
+      "id": "e271e041-4468-5be2-82cf-853e212c42a3",
+      "name": "神宮寺 真理",
+      "shortName": "神宮寺 真理",
+      "attribute": "electric",
+      "imagePath": "mari_n"
+   },
+   {
+      "id": "c93044f7-f5a3-5222-b8f8-6fa8ee74e6db",
+      "name": "神宮寺 真理",
+      "shortName": "神宮寺 真理",
+      "another": "孤影",
+      "attribute": "electric",
+      "imagePath": "mari_a"
+   },
+   {
+      "id": "dda4a5a7-b6ed-5341-9bec-c18f996d2476",
+      "name": "新谷 芹菜",
+      "shortName": "新谷 芹菜",
+      "attribute": "gravity",
+      "imagePath": "serina_n"
+   },
+   {
+      "id": "67d8d959-8b1c-5784-be11-45768e0ddc69",
+      "name": "蛙坂 来弥",
+      "shortName": "蛙坂 来弥",
+      "attribute": "heat",
+      "imagePath": "raiya_n"
+   },
+   {
+      "id": "0e3b31c6-b897-579b-84c4-0f987599c992",
+      "name": "蛙坂 来弥",
+      "shortName": "蛙坂 来弥",
+      "another": "残火",
+      "attribute": "heat",
+      "imagePath": "raiya_a"
+   },
+   {
+      "id": "b4a7adf7-0f5d-55ce-844c-80f3bed7ba24",
+      "name": "籠目 深沙希",
+      "shortName": "籠目 深沙希",
+      "attribute": "gravity",
+      "imagePath": "misaki_n"
+   },
+   {
+      "id": "de2ffde7-bd7d-54d5-adf9-cb055f1cfd4e",
+      "name": "紺堂 地衛理",
+      "shortName": "紺堂 地衛理",
+      "attribute": "freeze",
+      "imagePath": "chieri_n"
+   },
+   {
+      "id": "8b0c216c-f575-59ca-9fc4-2d2eef2588bc",
+      "name": "州天頃 椎奈",
+      "shortName": "州天頃 椎奈",
+      "attribute": "electric",
+      "imagePath": "siina_n"
+   },
+   {
+      "id": "72647534-fe4e-50ac-8f0c-4217b209e225",
+      "name": "仁紀藤 奏",
+      "shortName": "仁紀藤 奏",
+      "attribute": "gravity",
+      "imagePath": "kanade_n"
+   },
+   {
+      "id": "abc1c22b-8681-51c3-a7f3-3141d38a561e",
+      "name": "村尾 未羅",
+      "shortName": "村尾 未羅",
+      "attribute": "gravity",
+      "imagePath": "mira_n"
+   },
+   {
+      "id": "078cd8e5-bda0-5454-8195-b135d4a8cab9",
+      "name": "君影 唯",
+      "shortName": "君影 唯",
+      "attribute": "electric",
+      "imagePath": "yui_n"
+   },
+   {
+      "id": "ed1fe5bc-564e-5fde-b5a6-a3301488a5ca",
+      "name": "須賀 乙莉",
+      "shortName": "須賀 乙莉",
+      "attribute": "gravity",
+      "imagePath": "ituri_n"
+   },
+   {
+      "id": "73028a39-59b8-5f93-a703-6e07e5a56d26",
+      "name": "萬場 盟華",
+      "shortName": "萬場 盟華",
+      "attribute": "heat",
+      "imagePath": "meika_n"
+   },
+   {
+      "id": "0bc0f145-f3c7-5ab4-a40a-5963fc3ee13f",
+      "name": "萬場 盟華",
+      "shortName": "萬場 盟華",
+      "another": "極彩",
+      "attribute": "heat",
+      "imagePath": "meika_a"
+   },
+   {
+      "id": "44003d42-471b-5c81-8861-6363b3e5c6d9",
+      "name": "琴村 朱音",
+      "shortName": "琴村 朱音",
+      "attribute": "heat",
+      "imagePath": "akane_n"
+   },
+   {
+      "id": "a8d41314-441b-5200-818c-390de5ce97c4",
+      "name": "琴村 天音",
+      "shortName": "琴村 天音",
+      "attribute": "freeze",
+      "imagePath": "amane_n"
+   },
+   {
+      "id": "bc75747e-3ee5-5c54-86ce-00e5a66cfe6f",
+      "name": "サンティ・ラナ",
+      "shortName": "サンティ・R",
+      "attribute": "gravity",
+      "imagePath": "shanti_n"
+   },
+   {
+      "id": "9203cbf4-3fe9-5465-a52a-c905084b7f9e",
+      "name": "ニーナ・カリーニナ",
+      "shortName": "ニーナ・K",
+      "attribute": "freeze",
+      "imagePath": "nina_n"
+   },
+   {
+      "id": "e67cf060-67a5-5d34-aa68-1f0ed5ceb351",
+      "name": "王 紅花",
+      "shortName": "王 紅花",
+      "attribute": "heat",
+      "imagePath": "honfa_n"
+   },
+   {
+      "id": "480ce8d1-d213-5de5-8ba9-83c1303170d0",
+      "name": "王 紅花",
+      "shortName": "王 紅花",
+      "another": "紅蓮",
+      "attribute": "heat",
+      "imagePath": "honfa_a"
+   },
+   {
+      "id": "bb380504-396a-534c-bf61-2544a60caa10",
+      "name": "千島 美幸",
+      "shortName": "千島 美幸",
+      "attribute": "electric",
+      "imagePath": "miyuki_n"
+   },
+   {
+      "id": "0984b942-a7e5-55fe-9827-328606ac25ad",
+      "name": "東雲 チヱ",
+      "shortName": "東雲 チヱ",
+      "attribute": "heat",
+      "imagePath": "tie_n"
+   },
+   {
+      "id": "69c1fc91-7f13-51cf-874d-caf45031a6b8",
+      "name": "御蔵座 梓希",
+      "shortName": "御蔵座 梓希",
+      "attribute": "electric",
+      "imagePath": "azuki_n"
+   },
+   {
+      "id": "13cf6980-87e7-5bfe-81d6-0cb9249f6a14",
+      "name": "山野 薫子",
+      "shortName": "山野 薫子",
+      "attribute": "gravity",
+      "imagePath": "kaoruko_n"
+   },
+   {
+      "id": "b843d68b-2da2-5dd5-a7f5-cd21c76d584a",
+      "name": "二階堂 司",
+      "shortName": "二階堂 司",
+      "attribute": "freeze",
+      "imagePath": "tukasa_n"
+   },
+   {
+      "id": "f28be965-4789-588c-92e4-e090a39619a3",
+      "name": "御茶ノ水 美里江",
+      "shortName": "御茶ノ水 美里江",
+      "attribute": "electric",
+      "imagePath": "mirie_n"
+   },
+   {
+      "id": "93735093-77a7-5fa6-849a-5d0226725208",
+      "name": "リタ・ヘンシェル",
+      "shortName": "リタ・H",
+      "attribute": "gravity",
+      "imagePath": "rita_n"
+   },
+   {
+      "id": "3967a736-e74f-588b-ae57-ee4aa3f61db8",
+      "name": "金潟 すぐみ",
+      "shortName": "金潟 すぐみ",
+      "attribute": "electric",
+      "imagePath": "sugumi_n"
+   },
+   {
+      "id": "54f55f5a-cbc4-5fd2-9ca1-1bae0f554b9d",
+      "name": "新居目 安里",
+      "shortName": "新居目 安里",
+      "attribute": "gravity",
+      "imagePath": "yasuri_n"
+   },
+   {
+      "id": "962b89a8-1a52-5d7f-afc8-609b72f9299b",
+      "name": "轟雷",
+      "shortName": "轟雷",
+      "attribute": "gravity",
+      "imagePath": "gourai_n"
+   },
+   {
+      "id": "477037d5-d301-52da-90c0-16b08aa79749",
+      "name": "スティレット",
+      "shortName": "スティレット",
+      "attribute": "gravity",
+      "imagePath": "stylet_n"
+   },
+   {
+      "id": "2033f9d1-7a28-5cb5-804c-5a8c807df48c",
+      "name": "バーゼラルド",
+      "shortName": "バーゼラルド",
+      "attribute": "electric",
+      "imagePath": "baselard_n"
+   },
+   {
+      "id": "c328f616-91c6-58a7-b2cc-f9610f337e79",
+      "name": "フレズヴェルク",
+      "shortName": "フレズヴェルク",
+      "attribute": "gravity",
+      "imagePath": "hresvelgr_n"
+   },
+   {
+      "id": "a2998e8e-2663-55f7-8a45-6bfec605f73b",
+      "name": "SOLラプター",
+      "shortName": "SOLラプター",
+      "attribute": "heat",
+      "imagePath": "SOL_Raptor"
+   },
+   {
+      "id": "322c123c-fabe-52d7-be0b-4d695b1a9904",
+      "name": "SOLラプター",
+      "shortName": "SOLラプター",
+      "another": "[ストライク]",
+      "attribute": "freeze",
+      "imagePath": "SOL_Strike_Raptor"
+   },
+   {
+      "id": "332933c5-577a-537e-a924-1af495a6a2f2",
+      "name": "宮藤 芳佳",
+      "shortName": "宮藤 芳佳",
+      "attribute": "electric",
+      "imagePath": "yosika_n"
+   },
+   {
+      "id": "7625822c-bdab-5d62-b625-7c721c503fed",
+      "name": "リネット・ビショップ",
+      "shortName": "リネット・B",
+      "attribute": "gravity",
+      "imagePath": "rinette_n"
+   },
+   {
+      "id": "91806526-f37b-5cd0-88fe-429986c351c4",
+      "name": "ゲルトルート・バルクホルン",
+      "shortName": "ゲルトルート・B",
+      "attribute": "heat",
+      "imagePath": "gertrud_n"
+   },
+   {
+      "id": "b71a5cb6-cc72-5068-9df2-1cf91bd6b8a8",
+      "name": "エーリカ・ハルトマン",
+      "shortName": "エーリカ・H",
+      "attribute": "freeze",
+      "imagePath": "erica_n"
+   },
+   {
+      "id": "9fae8702-794f-5eff-a274-a6350557dfb2",
+      "name": "星月 みき",
+      "shortName": "星月 みき",
+      "attribute": "heat",
+      "imagePath": "miki_n"
+   },
+   {
+      "id": "65a96986-baad-5d88-9b6d-190849d69303",
+      "name": "常磐 くるみ",
+      "shortName": "常磐 くるみ",
+      "attribute": "freeze",
+      "imagePath": "kurumi_n"
+   },
+   {
+      "id": "678e4d86-d797-5573-8ffd-cb89dfd4c32a",
+      "name": "綿木 ミシェル",
+      "shortName": "綿木 ミシェル",
+      "attribute": "electric",
+      "imagePath": "michel_n"
+   },
+   {
+      "id": "267cc6ea-24aa-5d10-859c-d81e4a77929d",
+      "name": "サドネ",
+      "shortName": "サドネ",
+      "attribute": "gravity",
+      "imagePath": "sadone_n"
+   }
+]

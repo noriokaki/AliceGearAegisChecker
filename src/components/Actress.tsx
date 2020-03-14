@@ -1,0 +1,42 @@
+import React, { Dispatch, useState } from "react";
+import { ActionType, select, unselect } from "../models/ActionCreator";
+import { ActressType } from "../models/DataTypes";
+import ActressImage from "./ActressImage";
+
+type Props = {
+   actress: ActressType;
+   dispatch: Dispatch<ActionType>;
+};
+const Actress = ({ actress, dispatch }: Props): JSX.Element => {
+   const [active, setActive] = useState(false);
+   const onClickHandler = (): void => {
+      setActive(!active);
+      if (active) {
+         dispatch(unselect(actress.id));
+      } else {
+         dispatch(select(actress.id));
+      }
+   };
+   return (
+      <div
+         style={{
+            border: "1px solid",
+            borderRadius: "10px",
+            overflow: "hidden",
+            width: "9em",
+            userSelect: "none",
+            backgroundColor: active ? "#FFFF" : "rgb(245, 245, 245)",
+         }}
+         onClick={onClickHandler}
+      >
+         <span style={{ opacity: active ? 1 : 0.5 }}>
+            <ActressImage filename={actress.imagePath}></ActressImage>
+         </span>
+         <div style={{ textAlign: "center" }}>
+            {actress.shortName || actress.name}
+         </div>
+      </div>
+   );
+};
+
+export default React.memo(Actress);
