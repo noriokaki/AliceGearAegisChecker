@@ -25,7 +25,12 @@ const ActressImage = ({
                   relativePath
                   name
                   childImageSharp {
-                     fixed(width: 80, height: 80, cropFocus: NORTH) {
+                     fixed(
+                        width: 80
+                        height: 80
+                        cropFocus: NORTH
+                        quality: 85
+                     ) {
                         ...GatsbyImageSharpFixed
                      }
                   }
