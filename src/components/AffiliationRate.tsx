@@ -13,7 +13,7 @@ const AffiliationRate = ({ actresses }: Props): JSX.Element => {
    const displayRate = Math.round(rate * 10000) / 100;
    return (
       <>
-         <p
+         <div
             style={{
                border: "1px solid",
                position: "sticky",
@@ -33,7 +33,7 @@ const AffiliationRate = ({ actresses }: Props): JSX.Element => {
             <TweetButton
                text={`${displayRate}%25のアクトレスをスカウトしました`}
             />
-         </p>
+         </div>
       </>
    );
 };
