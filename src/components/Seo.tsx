@@ -13,15 +13,9 @@ type Props = {
    description?: string;
    lang?: string;
    meta?: [];
-   title: string;
 };
 
-function SEO({
-   description = "",
-   lang = "en",
-   meta = [],
-   title,
-}: Props): JSX.Element {
+function SEO({ description = "", lang = "en", meta = [] }: Props): JSX.Element {
    const { site } = useStaticQuery(
       graphql`
          query {
@@ -37,14 +31,13 @@ function SEO({
    );
 
    const metaDescription = description || site.siteMetadata.description;
-
+   const title = `${site.siteMetadata.title}`;
    return (
       <Helmet
          htmlAttributes={{
             lang,
          }}
          title={title}
-         titleTemplate={`%s | ${site.siteMetadata.title}`}
          meta={[
             {
                name: `description`,

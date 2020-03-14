@@ -5,7 +5,7 @@ import SEO from "../components/Seo";
 
 const IndexPage = (): JSX.Element => (
    <Layout>
-      <SEO title="Home" />
+      <SEO />
       <MainContainer />
    </Layout>
 );
