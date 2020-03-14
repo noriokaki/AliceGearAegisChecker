@@ -33,7 +33,8 @@ const Actress = ({ actress, dispatch }: Props): JSX.Element => {
             <ActressImage filename={actress.imagePath}></ActressImage>
          </span>
          <div style={{ textAlign: "center" }}>
-            {actress.shortName || actress.name}
+            {(actress.another ? "(A)" : "") +
+               (actress.shortName || actress.name)}
          </div>
       </div>
    );
