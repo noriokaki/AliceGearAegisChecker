@@ -4,7 +4,7 @@ module.exports = {
       title: `アリス・ギア・アイギス 所属率チェッカー`,
       description: `アリス・ギア・アイギスのアクトレスの所属率チェッカーです。`,
       author: `@noriokaki`,
-      url: "http://dummy.com"
+      url: "https://alice-gear-aegis-checker.netlify.com/"
    },
    plugins: [
       `gatsby-plugin-react-helmet`,
