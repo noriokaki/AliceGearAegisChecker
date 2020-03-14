@@ -9,7 +9,8 @@ type Props = Pick<StateType, "actresses">;
  * 所属率
  */
 const AffiliationRate = ({ actresses }: Props): JSX.Element => {
-   const rate = actresses.filter((v) => v.isSelect).length / actresses.length;
+   const selectActressesNum = actresses.filter((v) => v.isSelect).length;
+   const rate = selectActressesNum / actresses.length;
    const displayRate = Math.round(rate * 10000) / 100;
    return (
       <>
@@ -31,7 +32,7 @@ const AffiliationRate = ({ actresses }: Props): JSX.Element => {
             {displayRate}% ({actresses.filter((v) => v.isSelect).length}/
             {actresses.length})
             <TweetButton
-               text={`${displayRate}%25のアクトレスをスカウトしました`}
+               text={`${displayRate}%25(${selectActressesNum}/${actresses.length})のアクトレスをスカウトしました`}
             />
          </div>
       </>
