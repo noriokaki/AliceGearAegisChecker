@@ -5,6 +5,13 @@ import TweetButton from "./TweetButton";
 
 type Props = Pick<StateType, "actresses">;
 
+const createRateText = (actresses: readonly ActressType[]): string => {
+   const selectActressesNum = actresses.filter((v) => v.isSelect).length;
+   const rate = selectActressesNum / actresses.length;
+   const displayRate = Math.round(rate * 10000) / 100;
+   return `${displayRate}% (${selectActressesNum}/${actresses.length})`;
+};
+
 /**
  * 所属率
  */
@@ -29,10 +36,12 @@ const AffiliationRate = ({ actresses }: Props): JSX.Element => {
                zIndex: 3,
             }}
          >
-            {displayRate}% ({actresses.filter((v) => v.isSelect).length}/
-            {actresses.length})
+            全体：{createRateText(actresses)}
             <TweetButton
-               text={`${displayRate}%25(${selectActressesNum}/${actresses.length})のアクトレスをスカウトしました`}
+               text={`${createRateText(actresses).replace(
+                  "%",
+                  "%25",
+               )}のアクトレスをスカウトしました`}
             />
          </div>
       </>
