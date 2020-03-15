@@ -2,7 +2,6 @@ import Container from "@material-ui/core/Container";
 import { graphql, useStaticQuery } from "gatsby";
 import React, { useReducer } from "react";
 import { ActressesListQuery } from "../../types/graphql-types";
-import actressFilter from "../models/ActressFilter";
 import { ActressType } from "../models/DataTypes";
 import reducer from "../models/Reducer";
 import ActressesList from "./ActressesList";
@@ -64,7 +63,7 @@ const MainContainer = (): JSX.Element => {
             dispatch={dispatch}
          ></FilterBlock>
          <Spacer />
-         <ActressesList actresses={actressFilter(state)} dispatch={dispatch} />
+         <ActressesList state={state} dispatch={dispatch} />
       </Container>
    );
 };
