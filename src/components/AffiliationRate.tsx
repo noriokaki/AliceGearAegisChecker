@@ -1,9 +1,10 @@
 import React from "react";
-import { StateType } from "../models/DataTypes";
+import actressFilter from "../models/ActressFilter";
+import { ActressType, StateType } from "../models/DataTypes";
 import { BackgroundColor, TextColor } from "./palette";
 import TweetButton from "./TweetButton";
 
-type Props = Pick<StateType, "actresses">;
+type Props = { state: StateType };
 
 const createRateText = (actresses: readonly ActressType[]): string => {
    const selectActressesNum = actresses.filter((v) => v.isSelect).length;
@@ -15,10 +16,8 @@ const createRateText = (actresses: readonly ActressType[]): string => {
 /**
  * 所属率
  */
-const AffiliationRate = ({ actresses }: Props): JSX.Element => {
-   const selectActressesNum = actresses.filter((v) => v.isSelect).length;
-   const rate = selectActressesNum / actresses.length;
-   const displayRate = Math.round(rate * 10000) / 100;
+const AffiliationRate = ({ state }: Props): JSX.Element => {
+   const actresses = state.actresses;
    return (
       <>
          <div
@@ -43,6 +42,19 @@ const AffiliationRate = ({ actresses }: Props): JSX.Element => {
                   "%25",
                )}のアクトレスをスカウトしました`}
             />
+            <p
+               style={{
+                  fontSize: "1.6rem",
+                  position: "relative",
+                  top: "-5px",
+                  visibility:
+                     actresses.length === actressFilter(state).length
+                        ? "hidden"
+                        : "inherit",
+               }}
+            >
+               フィルター対象：{createRateText(actressFilter(state))}
+            </p>
          </div>
       </>
    );

@@ -57,7 +57,7 @@ const MainContainer = (): JSX.Element => {
 
    return (
       <Container>
-         <AffiliationRate actresses={state.actresses}></AffiliationRate>
+         <AffiliationRate state={state}></AffiliationRate>
          <Spacer />
          <FilterBlock
             attributeFilter={state.attributeFilter}
