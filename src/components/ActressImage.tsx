@@ -1,7 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 import Img, { FixedObject } from "gatsby-image";
 import React, { useEffect, useState } from "react";
-import { useMediaQuery } from "react-responsive";
 import { AllImageFileQuery } from "../../types/graphql-types";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const templateImage = require("../../assets/images/mystery-person.jpg");
@@ -11,7 +10,6 @@ type Props = { filename?: string };
 const ActressImage = ({
    filename = "mystery-person.jpg",
 }: Props): JSX.Element => {
-   const isMobile = useMediaQuery({ maxWidth: "346px" });
    const [image, setImage] = useState<
       undefined | AllImageFileQuery["images"]["edges"][0]
    >(undefined);
