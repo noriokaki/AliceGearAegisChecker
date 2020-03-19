@@ -1,4 +1,5 @@
 import React, { Dispatch, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import { ActionType, select, unselect } from "../models/ActionCreator";
 import { ActressType } from "../models/DataTypes";
 import ActressImage from "./ActressImage";
@@ -8,6 +9,7 @@ type Props = {
    dispatch: Dispatch<ActionType>;
 };
 const Actress = ({ actress, dispatch }: Props): JSX.Element => {
+   const isMobile = useMediaQuery({ maxWidth: "365px" });
    const [active, setActive] = useState(actress.isSelect);
    const onClickHandler = (): void => {
       setActive(!active);
@@ -23,7 +25,7 @@ const Actress = ({ actress, dispatch }: Props): JSX.Element => {
             border: "1px solid",
             borderRadius: "10px",
             overflow: "hidden",
-            width: "9em",
+            width: isMobile ? "8em" : "9em",
             userSelect: "none",
             backgroundColor: active ? "#FFFF" : "rgb(245, 245, 245)",
          }}
