@@ -27,7 +27,7 @@ const Actress = ({ actress, dispatch }: Props): JSX.Element => {
             overflow: "hidden",
             width: isMobile ? "8em" : "9em",
             userSelect: "none",
-            backgroundColor: active ? "#FFFF" : "rgb(245, 245, 245)",
+            backgroundColor: active ? "#FFFF" : "rgb(225, 225, 225)",
          }}
          onClick={onClickHandler}
       >
