@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import actressFilter from "../models/ActressFilter";
 import { ActressType, StateType } from "../models/DataTypes";
 import { BackgroundColor, TextColor } from "./palette";
@@ -17,6 +18,7 @@ const createRateText = (actresses: readonly ActressType[]): string => {
  * 所属率
  */
 const AffiliationRate = ({ state }: Props): JSX.Element => {
+   const isMobile = useMediaQuery({ maxWidth: 767 });
    const actresses = state.actresses;
    return (
       <>
@@ -26,12 +28,12 @@ const AffiliationRate = ({ state }: Props): JSX.Element => {
                position: "sticky",
                margin: 0,
                top: 0,
-               height: "2em",
+               height: isMobile ? "2.2em" : "2em",
                textAlign: "center",
                color: TextColor.LightPrimary,
                backgroundColor: BackgroundColor.DarkPrimary,
                opacity: 0.8,
-               fontSize: "2.0em",
+               fontSize: isMobile ? "1.5em" : "2.0em",
                zIndex: 3,
             }}
          >
@@ -44,9 +46,9 @@ const AffiliationRate = ({ state }: Props): JSX.Element => {
             />
             <p
                style={{
-                  fontSize: "1.6rem",
+                  fontSize: isMobile ? "1rem" : "1.6rem",
                   position: "relative",
-                  top: "-5px",
+                  top: isMobile ? "-15px" : "-5px",
                   visibility:
                      actresses.length === actressFilter(state).length
                         ? "hidden"
