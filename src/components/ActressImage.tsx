@@ -55,13 +55,14 @@ const ActressImage = ({
       margin: "auto",
    } as const;
    if (image == null) {
-      return <img src={templateImage} style={style} />;
+      return <img src={templateImage} style={style} alt="no image" />;
    }
 
    return (
       <Img
          fixed={image.node.childImageSharp?.fixed as FixedObject}
          style={style}
+         alt={filename}
       />
    );
 };
