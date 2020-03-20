@@ -51,8 +51,8 @@ const ActressImage = ({
    const style = {
       width: "80px",
       marginBottom: 0,
-      position: "relative",
-      left: "2.25em",
+      display: "flex",
+      margin: "auto",
    } as const;
    if (image == null) {
       return <img src={templateImage} style={style} />;
