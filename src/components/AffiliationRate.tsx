@@ -39,9 +39,8 @@ const AffiliationRate = ({ state }: Props): JSX.Element => {
          >
             全体：{createRateText(actresses)}
             <TweetButton
-               text={`${createRateText(actresses).replace(
-                  "%",
-                  "%25",
+               text={`${createRateText(
+                  actresses,
                )}のアクトレスをスカウトしました`}
             />
             <p

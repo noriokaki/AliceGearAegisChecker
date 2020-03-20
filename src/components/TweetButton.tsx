@@ -28,7 +28,11 @@ const TweetButton = ({ text = "" }: Props): JSX.Element => {
          }}
       >
          <a
-            href={`https://twitter.com/share?url=${url.site?.siteMetadata?.url}&hashtags=アリスギアアイギスチェッカー&text=${text}`}
+            href={`https://twitter.com/share?url=${
+               url.site?.siteMetadata?.url
+               }&hashtags=アリスギアアイギスチェッカー&text=${encodeURIComponent(
+                  text,
+               )}`}
             rel="nofollow noopener noreferrer"
             target="_blank"
             title="Tweet"
