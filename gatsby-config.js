@@ -1,8 +1,8 @@
 /* eslint-disable */
 module.exports = {
    siteMetadata: {
-      title: `アリス・ギア・アイギス 所属率チェッカー`,
-      description: `アリス・ギア・アイギスのアクトレスの所属率チェッカーです。`,
+      title: `アリス・ギア・アイギス スカウト率チェッカー`,
+      description: `アリス・ギア・アイギスのアクトレスのスカウト率チェッカーです。`,
       author: `@noriokaki`,
       url: "https://alice-gear-aegis-checker.netlify.com/"
    },
@@ -29,7 +29,7 @@ module.exports = {
       {
          resolve: `gatsby-plugin-manifest`,
          options: {
-            name: `アリス・ギア・アイギス・所属率チェッカー`,
+            name: `アリス・ギア・アイギス・スカウト率チェッカー`,
             short_name: `starter`,
             start_url: `/`,
             background_color: `#663399`,
