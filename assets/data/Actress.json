@@ -588,5 +588,19 @@
       "shortName": "サドネ",
       "attribute": "gravity",
       "imagePath": "sadone_n"
+   },
+   {
+      "id": "de8e9e30-679b-45cf-b35b-101522574904",
+      "name": "カスミ",
+      "shortName": "カスミ",
+      "attribute": "freeze",
+      "imagePath": "kasumi_n"
+   },
+   {
+      "id": "5954d6f1-c5e7-4421-99c0-4ad19daaf051",
+      "name": "マリー・ローズ",
+      "shortName": "マリー・ローズ",
+      "attribute": "gravity",
+      "imagePath": "marie_n"
    }
 ]
