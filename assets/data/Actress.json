@@ -413,6 +413,14 @@
       "imagePath": "shanti_n"
    },
    {
+      "id": "71d79c08-f999-4bed-b607-d4ef8274876b",
+      "name": "サンティ・ラナ",
+      "shortName": "サンティ・R",
+      "another": "雄渾",
+      "attribute": "gravity",
+      "imagePath": "shanti_a"
+   },
+   {
       "id": "9203cbf4-3fe9-5465-a52a-c905084b7f9e",
       "name": "ニーナ・カリーニナ",
       "shortName": "ニーナ・K",
