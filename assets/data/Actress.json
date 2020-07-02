@@ -451,6 +451,13 @@
       "imagePath": "honfa_a"
    },
    {
+      "id": "d51bbbc8-2dab-4027-902f-bbc849e65e99",
+      "name": "ミア・ヴォワザン",
+      "shortName": "ミア・V",
+      "attribute": "freeze",
+      "imagePath": "mia_n"
+   },
+   {
       "id": "bb380504-396a-534c-bf61-2544a60caa10",
       "name": "千島 美幸",
       "shortName": "千島 美幸",
