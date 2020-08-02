@@ -340,7 +340,15 @@
       "name": "紺堂 地衛理",
       "shortName": "紺堂 地衛理",
       "attribute": "freeze",
-      "imagePath": "chieri_n"
+      "imagePath": "chieri_n",
+      "another": "晨星"
+   },
+   {
+      "id": "7d7e74d4-b7e6-4bd6-9618-73774a23fb4f",
+      "name": "紺堂 地衛理",
+      "shortName": "紺堂 地衛理",
+      "attribute": "freeze",
+      "imagePath": "chieri_a"
    },
    {
       "id": "8b0c216c-f575-59ca-9fc4-2d2eef2588bc",
@@ -632,5 +640,19 @@
       "shortName": "マリー・ローズ",
       "attribute": "gravity",
       "imagePath": "marie_n"
+   },
+   {
+      "id": "6fd2ee97-cabb-4a1a-ba8d-d0dfd805e5f1",
+      "name": "シルフィーII",
+      "shortName": "シルフィーII",
+      "attribute": "electric",
+      "imagePath": "sylphyII"
+   },
+   {
+      "id": "5d1e451a-078b-4db0-b6f4-97d759e33c41",
+      "name": "シルフィーII/Mode-B",
+      "shortName": "シルフィーII/B",
+      "attribute": "gravity",
+      "imagePath": "sylphyII_B"
    }
 ]
