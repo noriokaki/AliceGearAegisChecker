@@ -628,6 +628,20 @@
       "imagePath": "sadone_n"
    },
    {
+      "id": "55ad3d56-27f8-4411-a830-cc4699fbad19",
+      "name": "煌上 花音",
+      "shortName": "煌上 花音",
+      "attribute": "electric",
+      "imagePath": "kanon_n"
+   },
+   {
+      "id": "4ca54aa9-b3f5-4ca3-ae07-2c730d5e9197",
+      "name": "国枝 詩穂",
+      "shortName": "国枝 詩穂",
+      "attribute": "freeze",
+      "imagePath": "shiho_n"
+   },
+   {
       "id": "de8e9e30-679b-45cf-b35b-101522574904",
       "name": "カスミ",
       "shortName": "カスミ",
