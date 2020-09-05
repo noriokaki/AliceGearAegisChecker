@@ -1,4 +1,4 @@
-import React, { Dispatch, useState } from "react";
+import React, { Dispatch } from "react";
 import { useMediaQuery } from "react-responsive";
 import { ActionType, select, unselect } from "../models/ActionCreator";
 import { ActressType } from "../models/DataTypes";
@@ -10,10 +10,8 @@ type Props = {
 };
 const Actress = ({ actress, dispatch }: Props): JSX.Element => {
    const isMobile = useMediaQuery({ maxWidth: "365px" });
-   const [active, setActive] = useState(actress.isSelect);
    const onClickHandler = (): void => {
-      setActive(!active);
-      if (active) {
+      if (actress.isSelect) {
          dispatch(unselect(actress.id));
       } else {
          dispatch(select(actress.id));
@@ -27,11 +25,11 @@ const Actress = ({ actress, dispatch }: Props): JSX.Element => {
             overflow: "hidden",
             width: isMobile ? "8em" : "9em",
             userSelect: "none",
-            backgroundColor: active ? "#FFFF" : "rgb(225, 225, 225)",
+            backgroundColor: actress.isSelect ? "#FFFF" : "rgb(225, 225, 225)",
          }}
          onClick={onClickHandler}
       >
-         <span style={{ opacity: active ? 1 : 0.5 }}>
+         <span style={{ opacity: actress.isSelect ? 1 : 0.5 }}>
             <ActressImage filename={actress.imagePath}></ActressImage>
          </span>
          <div style={{ textAlign: "center" }}>
