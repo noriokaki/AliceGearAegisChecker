@@ -1,4 +1,5 @@
 import { Reducer } from "react";
+import { db } from "../components/Storage";
 import { Action, ActionType } from "./ActionCreator";
 import { StateType } from "./DataTypes";
 
@@ -18,6 +19,7 @@ const reducer: Reducer<StateType, ActionType> = (
                if (v.id !== action.id) {
                   return v;
                }
+               db.actress.put({ id: v.id, isSelect: true });
                return { ...v, isSelect: true };
             }),
          };
@@ -29,6 +31,7 @@ const reducer: Reducer<StateType, ActionType> = (
                if (v.id !== action.id) {
                   return v;
                }
+               db.actress.put({ id: v.id, isSelect: false });
                return { ...v, isSelect: false };
             }),
          };

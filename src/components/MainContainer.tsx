@@ -1,13 +1,15 @@
 import Container from "@material-ui/core/Container";
 import { graphql, useStaticQuery } from "gatsby";
-import React, { useReducer } from "react";
+import React, { useEffect, useReducer } from "react";
 import { ActressesListQuery } from "../../types/graphql-types";
+import { select } from "../models/ActionCreator";
 import { ActressType } from "../models/DataTypes";
 import reducer from "../models/Reducer";
 import ActressesList from "./ActressesList";
 import AffiliationRate from "./AffiliationRate";
 import FilterBlock from "./FilterBlock";
 import Spacer from "./Spacer";
+import { db } from "./Storage";
 
 const actressesListItem = (): readonly ActressType[] => {
    const data: ActressesListQuery = useStaticQuery(graphql`
@@ -53,7 +55,17 @@ const MainContainer = (): JSX.Element => {
          freeze: true,
       },
    });
-
+   useEffect(() => {
+      const f = async (): Promise<void> => {
+         const initStorage = (await db.actress.toArray()).filter(
+            (v) => v.isSelect,
+         );
+         state.actresses
+            .filter((v) => initStorage.some((s) => s.id === v.id))
+            .forEach((v) => dispatch(select(v.id)));
+      };
+      f();
+   }, []);
    return (
       <Container>
          <AffiliationRate state={state}></AffiliationRate>
