@@ -552,6 +552,13 @@
       "imagePath": "yasuri_n"
    },
    {
+      "id": "a911990e-2f70-41c3-a4f9-86f747dfb476",
+      "name": "天狐 天",
+      "shortName": "天狐 天",
+      "attribute": "freeze",
+      "imagePath": "sora_n"
+   },
+   {
       "id": "962b89a8-1a52-5d7f-afc8-609b72f9299b",
       "name": "轟雷",
       "shortName": "轟雷",
