@@ -706,5 +706,26 @@
       "shortName": "シルフィーII/B",
       "attribute": "gravity",
       "imagePath": "sylphyII_B"
+   },
+   {
+      "id": "0e143eae-9f05-4ace-9ef5-a4b1360db0a7",
+      "name": "アヤ",
+      "shortName": "アヤ",
+      "attribute": "electric",
+      "imagePath": "aya_n"
+   },
+   {
+      "id": "509a205f-b54e-4f92-b354-65bdb4bf7efc",
+      "name": "ユキ",
+      "shortName": "ユキ",
+      "attribute": "freeze",
+      "imagePath": "yuki_n"
+   },
+   {
+      "id": "acc32aae-3dff-496e-aeaa-1579a2b38dc4",
+      "name": "ヤマダ",
+      "shortName": "ヤマダ",
+      "attribute": "gravity",
+      "imagePath": "yamada_n"
    }
 ]
