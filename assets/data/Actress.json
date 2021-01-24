@@ -568,6 +568,20 @@
       "imagePath": "yasuri_n"
    },
    {
+      "id": "c1526023-6acb-46b3-8074-2db6e7384ad9",
+      "name": "宮南 ひかり",
+      "shortName": "宮南 ひかり",
+      "attribute": "heat",
+      "imagePath": "hikari_n"
+   },
+   {
+      "id": "d41a8ef7-8548-4fb3-98d2-3bcc74310931",
+      "name": "我龍 絵美",
+      "shortName": "我龍 絵美",
+      "attribute": "gravity",
+      "imagePath": "emi_n"
+   },
+   {
       "id": "a911990e-2f70-41c3-a4f9-86f747dfb476",
       "name": "天狐 天",
       "shortName": "天狐 天",
