@@ -25,18 +25,19 @@ const actressFilter = (state: StateType): StateType["actresses"] => {
          return false;
       })
       .filter((actress) => {
+         if (
+            actress?.collaboration == true &&
+            state.kindFilter.collaboration == false
+         ) {
+            return false;
+         }
          if (actress?.another == null && state.kindFilter.normal) {
             return true;
          }
          if (actress?.another != null && state.kindFilter.another) {
             return true;
          }
-         if (
-            actress?.collaboration === true &&
-            state.kindFilter.collaboration
-         ) {
-            return true;
-         }
+
          return false;
       });
 };
