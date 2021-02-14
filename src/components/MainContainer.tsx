@@ -23,6 +23,7 @@ const actressesListItem = (): readonly ActressType[] => {
                   shortName
                   imagePath
                   another
+                  collaboration
                }
             }
          }
@@ -39,6 +40,7 @@ const actressesListItem = (): readonly ActressType[] => {
             isSelect: false,
             imagePath: item.node.imagePath,
             another: item.node.another,
+            collaboration: item.node.collaboration,
          } as ActressType;
       })
       .filter((v): v is ActressType => v !== null);
@@ -53,6 +55,11 @@ const MainContainer = (): JSX.Element => {
          electric: true,
          gravity: true,
          freeze: true,
+      },
+      kindFilter: {
+         normal: true,
+         another: true,
+         collaboration: true,
       },
    });
    useEffect(() => {
@@ -72,6 +79,7 @@ const MainContainer = (): JSX.Element => {
          <Spacer />
          <FilterBlock
             attributeFilter={state.attributeFilter}
+            kindFilter={state.kindFilter}
             dispatch={dispatch}
          ></FilterBlock>
          <Spacer />

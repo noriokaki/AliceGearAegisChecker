@@ -1,16 +1,20 @@
 // eslint-disable-next-line prettier/prettier
 import { Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel } from "@material-ui/core";
-import { blue, orange, purple, red } from "@material-ui/core/colors";
+import { blue, blueGrey, orange, purple, red } from "@material-ui/core/colors";
 import React, { Dispatch, useState } from "react";
 // eslint-disable-next-line prettier/prettier
-import { ActionType, toggleAttributeFilter, updateAttributeFilter } from "../models/ActionCreator";
+import { ActionType, toggleAttributeFilter, updateAttributeFilter, updateKindFilter } from "../models/ActionCreator";
 import { StateType } from "../models/DataTypes";
 import { BorderColor } from "./palette";
 
-type Props = Pick<StateType, "attributeFilter"> & {
+type Props = Pick<StateType, "attributeFilter" | "kindFilter"> & {
    dispatch: Dispatch<ActionType>;
 };
-const FilterBlock = ({ attributeFilter, dispatch }: Props): JSX.Element => {
+const FilterBlock = ({
+   attributeFilter,
+   kindFilter,
+   dispatch,
+}: Props): JSX.Element => {
    const [isDisable, setDisable] = useState(false);
    return (
       <FormControl
@@ -37,6 +41,62 @@ const FilterBlock = ({ attributeFilter, dispatch }: Props): JSX.Element => {
             />
          </FormLabel>
 
+         <FormGroup row={true}>
+            <FormControlLabel
+               control={
+                  <Checkbox
+                     disabled={isDisable}
+                     checked={kindFilter.normal}
+                     style={{ color: blueGrey[400] }}
+                     onChange={(): void =>
+                        dispatch(
+                           updateKindFilter({
+                              ...kindFilter,
+                              normal: !kindFilter.normal,
+                           }),
+                        )
+                     }
+                  />
+               }
+               label="ノーマル"
+            />
+            <FormControlLabel
+               control={
+                  <Checkbox
+                     disabled={isDisable}
+                     checked={kindFilter.another}
+                     style={{ color: blueGrey[400] }}
+                     onChange={(): void =>
+                        dispatch(
+                           updateKindFilter({
+                              ...kindFilter,
+                              another: !kindFilter.another,
+                           }),
+                        )
+                     }
+                  />
+               }
+               label="アナザー"
+            />
+            <FormControlLabel
+               control={
+                  <Checkbox
+                     disabled={isDisable}
+                     checked={kindFilter.collaboration}
+                     style={{ color: blueGrey[400] }}
+                     onChange={(): void =>
+                        dispatch(
+                           updateKindFilter({
+                              ...kindFilter,
+                              collaboration: !kindFilter.collaboration,
+                           }),
+                        )
+                     }
+                  />
+               }
+               label="コラボ"
+            />
+         </FormGroup>
          <FormGroup row={true}>
             <FormControlLabel
                control={

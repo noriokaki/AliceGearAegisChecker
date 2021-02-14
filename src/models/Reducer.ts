@@ -53,6 +53,14 @@ const reducer: Reducer<StateType, ActionType> = (
                ...action.select,
             },
          };
+      case Action.updateKindFilter:
+         return {
+            ...state,
+            kindFilter: {
+               ...state.kindFilter,
+               ...action.select,
+            },
+         };
       default:
          assertNever(action);
    }

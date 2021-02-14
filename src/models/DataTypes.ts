@@ -7,6 +7,11 @@ export type StateType = {
       freeze: boolean;
       heat: boolean;
    };
+   kindFilter: {
+      normal: boolean;
+      another: boolean;
+      collaboration: boolean;
+   };
 };
 
 export type ActressType = Readonly<{
@@ -15,6 +20,7 @@ export type ActressType = Readonly<{
    shortName?: string;
    attribute: AttributeType;
    another?: string;
+   collaboration?: true;
    isSelect: boolean;
    imagePath?: string;
 }>;

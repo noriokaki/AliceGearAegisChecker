@@ -601,6 +601,7 @@
       "name": "轟雷",
       "shortName": "轟雷",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "gourai_n"
    },
    {
@@ -608,6 +609,7 @@
       "name": "スティレット",
       "shortName": "スティレット",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "stylet_n"
    },
    {
@@ -615,6 +617,7 @@
       "name": "バーゼラルド",
       "shortName": "バーゼラルド",
       "attribute": "electric",
+      "collaboration": true,
       "imagePath": "baselard_n"
    },
    {
@@ -622,6 +625,7 @@
       "name": "フレズヴェルク",
       "shortName": "フレズヴェルク",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "hresvelgr_n"
    },
    {
@@ -629,6 +633,7 @@
       "name": "SOLラプター",
       "shortName": "SOLラプター",
       "attribute": "heat",
+      "collaboration": true,
       "imagePath": "SOL_Raptor"
    },
    {
@@ -637,6 +642,7 @@
       "shortName": "SOLラプター",
       "another": "[ストライク]",
       "attribute": "freeze",
+      "collaboration": true,
       "imagePath": "SOL_Strike_Raptor"
    },
    {
@@ -644,6 +650,7 @@
       "name": "宮藤 芳佳",
       "shortName": "宮藤 芳佳",
       "attribute": "electric",
+      "collaboration": true,
       "imagePath": "yosika_n"
    },
    {
@@ -651,6 +658,7 @@
       "name": "リネット・ビショップ",
       "shortName": "リネット・B",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "rinette_n"
    },
    {
@@ -658,6 +666,7 @@
       "name": "ゲルトルート・バルクホルン",
       "shortName": "ゲルトルート・B",
       "attribute": "heat",
+      "collaboration": true,
       "imagePath": "gertrud_n"
    },
    {
@@ -665,6 +674,7 @@
       "name": "エーリカ・ハルトマン",
       "shortName": "エーリカ・H",
       "attribute": "freeze",
+      "collaboration": true,
       "imagePath": "erica_n"
    },
    {
@@ -672,6 +682,7 @@
       "name": "星月 みき",
       "shortName": "星月 みき",
       "attribute": "heat",
+      "collaboration": true,
       "imagePath": "miki_n"
    },
    {
@@ -679,6 +690,7 @@
       "name": "常磐 くるみ",
       "shortName": "常磐 くるみ",
       "attribute": "freeze",
+      "collaboration": true,
       "imagePath": "kurumi_n"
    },
    {
@@ -686,6 +698,7 @@
       "name": "綿木 ミシェル",
       "shortName": "綿木 ミシェル",
       "attribute": "electric",
+      "collaboration": true,
       "imagePath": "michel_n"
    },
    {
@@ -693,6 +706,7 @@
       "name": "サドネ",
       "shortName": "サドネ",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "sadone_n"
    },
    {
@@ -700,6 +714,7 @@
       "name": "煌上 花音",
       "shortName": "煌上 花音",
       "attribute": "electric",
+      "collaboration": true,
       "imagePath": "kanon_n"
    },
    {
@@ -707,6 +722,7 @@
       "name": "国枝 詩穂",
       "shortName": "国枝 詩穂",
       "attribute": "freeze",
+      "collaboration": true,
       "imagePath": "shiho_n"
    },
    {
@@ -714,6 +730,7 @@
       "name": "カスミ",
       "shortName": "カスミ",
       "attribute": "freeze",
+      "collaboration": true,
       "imagePath": "kasumi_n"
    },
    {
@@ -721,6 +738,7 @@
       "name": "マリー・ローズ",
       "shortName": "マリー・ローズ",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "marie_n"
    },
    {
@@ -728,6 +746,7 @@
       "name": "シルフィーII",
       "shortName": "シルフィーII",
       "attribute": "electric",
+      "collaboration": true,
       "imagePath": "sylphyII"
    },
    {
@@ -735,6 +754,7 @@
       "name": "シルフィーII/Mode-B",
       "shortName": "シルフィーII/B",
       "attribute": "gravity",
+      "collaboration": true,
       "imagePath": "sylphyII_B"
    },
    {
@@ -742,20 +762,23 @@
       "name": "アヤ",
       "shortName": "アヤ",
       "attribute": "electric",
-      "imagePath": "aya_n"
+      "imagePath": "aya_n",
+      "collaboration": true
    },
    {
       "id": "509a205f-b54e-4f92-b354-65bdb4bf7efc",
       "name": "ユキ",
       "shortName": "ユキ",
       "attribute": "freeze",
-      "imagePath": "yuki_n"
+      "imagePath": "yuki_n",
+      "collaboration": true
    },
    {
       "id": "acc32aae-3dff-496e-aeaa-1579a2b38dc4",
       "name": "ヤマダ",
       "shortName": "ヤマダ",
       "attribute": "gravity",
-      "imagePath": "yamada_n"
+      "imagePath": "yamada_n",
+      "collaboration": true
    }
 ]

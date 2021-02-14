@@ -1,6 +1,11 @@
 import actressFilter from "../ActressFilter";
-import { ActressType } from "../DataTypes";
+import { ActressType, StateType } from "../DataTypes";
 
+const kindFilter: StateType["kindFilter"] = {
+   another: true,
+   collaboration: true,
+   normal: true,
+};
 const yotuyuData = {
    id: "c296567d-dadf-5f9e-818d-e46f304cad24",
    name: "比良坂 夜露",
@@ -41,7 +46,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toHaveLength(4);
    });
    it("選択なし", () => {
@@ -53,7 +58,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toHaveLength(0);
    });
    it("電撃のみ", () => {
@@ -65,7 +70,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([yotuyuData]);
    });
    it("冷撃のみ", () => {
@@ -77,7 +82,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([fumikaData]);
    });
    it("重力のみ", () => {
@@ -89,7 +94,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([sitaraData]);
    });
    it("焼夷のみ", () => {
@@ -101,7 +106,7 @@ describe("アクトレス属性フィルター", () => {
          heat: true,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([rinData]);
    });
    it("電撃＋重力", () => {
@@ -113,7 +118,7 @@ describe("アクトレス属性フィルター", () => {
          heat: false,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([yotuyuData, sitaraData]);
    });
    it("氷結＋焼夷", () => {
@@ -125,7 +130,7 @@ describe("アクトレス属性フィルター", () => {
          heat: true,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([fumikaData, rinData]);
    });
    it("氷結+重力＋焼夷", () => {
@@ -137,7 +142,7 @@ describe("アクトレス属性フィルター", () => {
          heat: true,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([fumikaData, sitaraData, rinData]);
    });
    it("電撃＋氷結＋重力＋焼夷", () => {
@@ -149,7 +154,7 @@ describe("アクトレス属性フィルター", () => {
          heat: true,
       };
       expect(
-         actressFilter({ actresses: testData, attributeFilter }),
+         actressFilter({ actresses: testData, attributeFilter, kindFilter }),
       ).toStrictEqual([yotuyuData, fumikaData, sitaraData, rinData]);
    });
 });

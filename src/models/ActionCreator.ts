@@ -1,9 +1,10 @@
-import { AttributeType } from "./DataTypes";
+import { AttributeType, StateType } from "./DataTypes";
 
 export type ActionType =
    | SelectActionType
    | UnselectActionType
    | UpdateAttributeFilter
+   | UpdateKindFilter
    | ToggleAttributeFilter;
 
 export enum Action {
@@ -11,6 +12,7 @@ export enum Action {
    "unSelect",
    "updateAttributeFilter",
    "toggleAttributeFilter",
+   "updateKindFilter",
 }
 export type SelectActionType = { type: Action.select; id: string };
 export type UnselectActionType = { type: Action.unSelect; id: string };
@@ -25,6 +27,15 @@ export const updateAttributeFilter = (
    select: Record<AttributeType, boolean>,
 ): UpdateAttributeFilter => {
    return { type: Action.updateAttributeFilter, select };
+};
+export type UpdateKindFilter = {
+   type: Action.updateKindFilter;
+   select: StateType["kindFilter"];
+};
+export const updateKindFilter = (
+   select: StateType["kindFilter"],
+): UpdateKindFilter => {
+   return { type: Action.updateKindFilter, select };
 };
 export const toggleAttributeFilter = (): ToggleAttributeFilter => {
    return { type: Action.toggleAttributeFilter };
