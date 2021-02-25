@@ -780,5 +780,22 @@
       "attribute": "gravity",
       "imagePath": "yamada_n",
       "collaboration": true
+   },
+   {
+      "id": "054686c2-0ef7-4340-8b8f-17cc9894bb34",
+      "name": "AIT Ti2",
+      "shortName": "Ti2",
+      "attribute": "heat",
+      "imagePath": "ti2_n",
+      "collaboration": true
+   },
+   {
+      "id": "7bdd8398-1cc3-4e73-b83f-74c9e076737d",
+      "name": "AIT 【イア・レトナ】",
+      "shortName": "イア・レトナ",
+      "another": "【イア・レトナ】",
+      "attribute": "freeze",
+      "imagePath": "ia_n",
+      "collaboration": true
    }
 ]
