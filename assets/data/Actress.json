@@ -454,11 +454,27 @@
       "imagePath": "akane_n"
    },
    {
+      "id": "b012983e-e494-4980-bc5f-d783c3c35e77",
+      "name": "琴村 朱音",
+      "shortName": "琴村 朱音",
+      "attribute": "heat",
+      "another": "炎天",
+      "imagePath": "akane_a"
+   },
+   {
       "id": "a8d41314-441b-5200-818c-390de5ce97c4",
       "name": "琴村 天音",
       "shortName": "琴村 天音",
       "attribute": "freeze",
       "imagePath": "amane_n"
+   },
+   {
+      "id": "8c0de63c-e02e-4813-bb18-ae938fb2b2d5",
+      "name": "琴村 天音",
+      "shortName": "琴村 天音",
+      "attribute": "freeze",
+      "another": "玄天",
+      "imagePath": "amane_a"
    },
    {
       "id": "bc75747e-3ee5-5c54-86ce-00e5a66cfe6f",
