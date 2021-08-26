@@ -755,6 +755,22 @@
       "imagePath": "erica_n"
    },
    {
+      "id": "5df7f01c-96e6-43fd-b157-d89ccc333935",
+      "name": "坂本 美緒",
+      "shortName": "坂本 美緒",
+      "attribute": "heat",
+      "collaboration": true,
+      "imagePath": "sakamoto_n"
+   },
+   {
+      "id": "891e794c-e5f3-4589-95bf-a5a7ecdf3594",
+      "name": "ペリーヌ＝H・クロステルマン",
+      "shortName": "ペリーヌ・C",
+      "attribute": "electric",
+      "collaboration": true,
+      "imagePath": "perrine_n"
+   },
+   {
       "id": "9fae8702-794f-5eff-a274-a6350557dfb2",
       "name": "星月 みき",
       "shortName": "星月 みき",
