@@ -68,3 +68,4 @@ yarn-error.log
 types/graphql-types.d.ts
 
 .next
+next-env.d.ts
