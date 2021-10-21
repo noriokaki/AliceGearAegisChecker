@@ -1,23 +1,14 @@
 import Twitter from "@material-ui/icons/Twitter";
-import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import { UrlQuery } from "../../types/graphql-types";
+import config from "../config";
 type Props = {
    text?: string;
 };
 
 const TweetButton = ({ text = "" }: Props): JSX.Element => {
    const isMobile = useMediaQuery({ maxWidth: "450px" });
-   const url: UrlQuery = useStaticQuery(graphql`
-      query Url {
-         site {
-            siteMetadata {
-               url
-            }
-         }
-      }
-   `);
+   const url = config.url;
    return (
       <div
          style={{
@@ -28,11 +19,9 @@ const TweetButton = ({ text = "" }: Props): JSX.Element => {
          }}
       >
          <a
-            href={`https://twitter.com/share?url=${
-               url.site?.siteMetadata?.url
-               }&hashtags=アリスギアアイギスチェッカー&text=${encodeURIComponent(
-                  text,
-               )}`}
+            href={`https://twitter.com/share?url=${url}&hashtags=アリスギアアイギスチェッカー&text=${encodeURIComponent(
+               text,
+            )}`}
             rel="nofollow noopener noreferrer"
             target="_blank"
             title="Tweet"
