@@ -1,46 +1,32 @@
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
+const shimmer = (w: number, h: number) => `
+<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="g">
+      <stop stop-color="#333" offset="20%" />
+      <stop stop-color="#222" offset="50%" />
+      <stop stop-color="#333" offset="70%" />
+    </linearGradient>
+  </defs>
+  <rect width="${w}" height="${h}" fill="#333" />
+  <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
+  <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
+</svg>`
+
+const toBase64 = (str: string) =>
+   typeof window === 'undefined'
+      ? Buffer.from(str).toString('base64')
+      : window.btoa(str)
 type Props = { filename?: string };
 // 画像ファイルパスをプロパティに取るようなコンポーネントを定義
 const ActressImage = ({
-   filename = "mystery-person.jpg",
+   filename
 }: Props): JSX.Element => {
-   const [image, setImage] = useState<undefined>(undefined);
-
-   // ページじゃないコンポーネントでもGraphQLが使えるように
-   // StaticQueryを使う
-   // GraphQLのクエリ引数には何も指定しない！
-   // const query: AllImageFileQuery = useStaticQuery(graphql`
-   //    query AllImageFile {
-   //       images: allFile {
-   //          edges {
-   //             node {
-   //                relativePath
-   //                name
-   //                childImageSharp {
-   //                   fixed(
-   //                      width: 80
-   //                      height: 80
-   //                      cropFocus: NORTH
-   //                      quality: 85
-   //                   ) {
-   //                      ...GatsbyImageSharpFixed
-   //                   }
-   //                }
-   //             }
-   //          }
-   //       }
-   //    }
-   // `);
-   useEffect(() => {
-      // 指定した画像ファイルパス（コンポーネントのプロパティ）と
-      // 一致するgatsby-image用の情報を取得
-      // const image = query.images.edges.find((n) => {
-      //    return n.node.name === filename;
-      // });
-      // setImage(image);
-   }, []);
+   const [image, setImage] = useState<string>(
+      filename !== undefined ? `/images/actresses/${filename}.jpg` : `/images/mystery-person.jpg`,
+   );
 
    const style = {
       width: "80px",
@@ -48,14 +34,19 @@ const ActressImage = ({
       display: "flex",
       margin: "auto",
    } as const;
-
    return (
       <div style={style}>
          <Image
-            src="/images/mystery-person.jpg"
+            src={image}
             width={80}
             height={80}
             alt={filename}
+            objectFit="cover"
+            objectPosition="50% 0%"
+            onError={(): void => setImage("/images/mystery-person.jpg")}
+            placeholder="blur"
+            blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
+            priority={true}
          />
       </div>
    );
