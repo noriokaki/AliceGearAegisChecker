@@ -2,6 +2,7 @@
 module.exports = {
    webpack5: true,
    reactStrictMode: true,
+   poweredByHeader: false,
    webpack: (config) => {
       config.resolve.fallback = {
          fs: false,
