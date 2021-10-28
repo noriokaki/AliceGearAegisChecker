@@ -1,5 +1,7 @@
+const withPWA = require("next-pwa");
+
 /* eslint-disable no-undef */
-module.exports = {
+module.exports = withPWA({
    webpack5: true,
    reactStrictMode: true,
    poweredByHeader: false,
@@ -12,4 +14,9 @@ module.exports = {
 
       return config;
    },
-};
+   pwa: {
+      disable: process.env.NODE_ENV === "development",
+      dest: "public",
+      publicExcludes: ["!favicons/**/*", "!images/actresses/**/*"]
+   }
+});
