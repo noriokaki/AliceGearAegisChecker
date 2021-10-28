@@ -1,91 +1,29 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
-import { graphql, useStaticQuery } from "gatsby";
+import Head from "next/head";
 import React from "react";
-import Helmet from "react-helmet";
-const image = require("../../assets/images/icon.png");
+import config from "../config";
 
 type Props = {
    description?: string;
-   lang?: string;
-   meta?: [];
    titleName?: string;
 };
 
-function SEO({
-   description = "",
-   lang = "en",
-   meta = [],
-   titleName,
-}: Props): JSX.Element {
-   const { site } = useStaticQuery(
-      graphql`
-         query {
-            site {
-               siteMetadata {
-                  title
-                  description
-                  author
-               }
-            }
-         }
-      `,
-   );
-
-   const metaDescription = description || site.siteMetadata.description;
-   const title = titleName ?? `${site.siteMetadata.title}`;
+function SEO({ description = "", titleName }: Props): JSX.Element {
+   const metaDescription = description || config.description;
+   const title = titleName ?? `${config.title}`;
+   const image = "/images/icon.png";
    return (
-      <Helmet
-         htmlAttributes={{
-            lang,
-         }}
-         title={title}
-         meta={[
-            {
-               name: `description`,
-               content: metaDescription,
-            },
-            {
-               property: `og:title`,
-               content: title,
-            },
-            {
-               property: `og:description`,
-               content: metaDescription,
-            },
-            {
-               property: `og:type`,
-               content: `website`,
-            },
-            {
-               name: `og:image`,
-               content: image,
-            },
-            {
-               name: `twitter:card`,
-               content: `summary`,
-            },
-            {
-               name: `twitter:creator`,
-               content: site.siteMetadata.author,
-            },
-            {
-               name: `twitter:title`,
-               content: title,
-            },
-            {
-               name: `twitter:description`,
-               content: metaDescription,
-            },
-         ].concat(meta)}
-      />
+      <Head>
+         <title>{`${title}`}</title>
+         <meta name="description" content={metaDescription} />
+         <meta property="og:title" content={title} />
+         <meta property="og:description" content={metaDescription} />
+         <meta property="og:type" content="website" />
+         <meta name="og:image" content={config.url + image} />
+         <meta name="twitter:card" content="summary" />
+         <meta name="twitter:creator" content={config.author} />
+         <meta name="twitter:title" content={title} />
+         <meta name="twitter:description" content={metaDescription} />
+      </Head>
    );
 }
-
 export default SEO;
