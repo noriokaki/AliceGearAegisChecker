@@ -10,7 +10,7 @@ type Props = {
 function SEO({ description = "", titleName }: Props): JSX.Element {
    const metaDescription = description || config.description;
    const title = titleName ?? `${config.title}`;
-   const image = "/images/icon.png";
+   const image = "images/icon.png";
    return (
       <Head>
          <title>{`${title}`}</title>
