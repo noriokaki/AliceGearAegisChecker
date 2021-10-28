@@ -235,7 +235,8 @@
       "name": "シャーリー・オークレイ",
       "shortName": "シャーリー・O",
       "attribute": "electric",
-      "another": "撃壌"
+      "another": "撃壌",
+      "imagePath": "shirley_a"
    },
    {
       "id": "2351eb07-c832-5b2d-b40c-759adcc65911",
@@ -428,7 +429,8 @@
       "name": "須賀 乙莉",
       "shortName": "須賀 乙莉",
       "attribute": "gravity",
-      "another": "仰望"
+      "another": "仰望",
+      "imagePath": "ituri_a"
    },
    {
       "id": "73028a39-59b8-5f93-a703-6e07e5a56d26",
@@ -464,7 +466,8 @@
       "name": "琴村 朱音",
       "shortName": "琴村 朱音",
       "attribute": "heat",
-      "another": "炎天"
+      "another": "炎天",
+      "imagePath": "akane_a"
    },
    {
       "id": "a8d41314-441b-5200-818c-390de5ce97c4",
@@ -478,7 +481,8 @@
       "name": "琴村 天音",
       "shortName": "琴村 天音",
       "attribute": "freeze",
-      "another": "玄天"
+      "another": "玄天",
+      "imagePath": "amane_a"
    },
    {
       "id": "bc75747e-3ee5-5c54-86ce-00e5a66cfe6f",
@@ -507,7 +511,8 @@
       "name": "ニーナ・カリーニナ",
       "shortName": "ニーナ・K",
       "attribute": "freeze",
-      "another": "破軍"
+      "another": "破軍",
+      "imagePath": "nina_a"
    },
    {
       "id": "e67cf060-67a5-5d34-aa68-1f0ed5ceb351",
@@ -579,7 +584,8 @@
       "name": "二階堂 司",
       "shortName": "二階堂 司",
       "attribute": "freeze",
-      "another": "芝蘭"
+      "another": "芝蘭",
+      "imagePath": "tukasa_a"
    },
    {
       "id": "f28be965-4789-588c-92e4-e090a39619a3",
@@ -593,7 +599,8 @@
       "name": "御茶ノ水 美里江",
       "shortName": "御茶ノ水 美里江",
       "another": "無辜",
-      "attribute": "electric"
+      "attribute": "electric",
+      "imagePath": "mirie_a"
    },
    {
       "id": "93735093-77a7-5fa6-849a-5d0226725208",
@@ -607,7 +614,8 @@
       "name": "リタ・ヘンシェル",
       "shortName": "リタ・H",
       "another": "巧匠",
-      "attribute": "gravity"
+      "attribute": "gravity",
+      "imagePath": "rita_a"
    },
    {
       "id": "3967a736-e74f-588b-ae57-ee4aa3f61db8",
@@ -621,7 +629,8 @@
       "name": "金潟 すぐみ",
       "shortName": "金潟 すぐみ",
       "another": "臥薪",
-      "attribute": "electric"
+      "attribute": "electric",
+      "imagePath": "sugumi_a"
    },
    {
       "id": "54f55f5a-cbc4-5fd2-9ca1-1bae0f554b9d",
@@ -635,19 +644,22 @@
       "name": "新居目 安里",
       "shortName": "新居目 安里",
       "attribute": "gravity",
-      "another": "紺碧"
+      "another": "紺碧",
+      "imagePath": "yasuri_a"
    },
    {
       "id": "c9217bac-a5e1-482c-9e07-d40f8e2d280b",
       "name": "的場 アオイ",
       "shortName": "的場 アオイ",
-      "attribute": "freeze"
+      "attribute": "freeze",
+      "imagePath": "aoi_n"
    },
    {
       "id": "23df92f0-edc3-4feb-9246-3ccd546ab7c9",
       "name": "在賀 奈々",
       "shortName": "在賀 奈々",
-      "attribute": "gravity"
+      "attribute": "gravity",
+      "imagePath": "nana_n"
    },
    {
       "id": "c1526023-6acb-46b3-8074-2db6e7384ad9",
@@ -681,7 +693,8 @@
       "id": "b4f7d50b-209d-4cd8-8d50-1c61a26bff4c",
       "name": "春日丘 もえ",
       "shortName": "春日丘 もえ",
-      "attribute": "heat"
+      "attribute": "heat",
+      "imagePath": "moe_n"
    },
    {
       "id": "962b89a8-1a52-5d7f-afc8-609b72f9299b",
@@ -769,14 +782,16 @@
       "name": "坂本 美緒",
       "shortName": "坂本 美緒",
       "attribute": "heat",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "sakamoto_n"
    },
    {
       "id": "891e794c-e5f3-4589-95bf-a5a7ecdf3594",
       "name": "ペリーヌ＝H・クロステルマン",
       "shortName": "ペリーヌ・C",
       "attribute": "electric",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "perrine_n"
    },
    {
       "id": "9fae8702-794f-5eff-a274-a6350557dfb2",
@@ -896,6 +911,7 @@
       "shortName": "イア・レトナ",
       "another": "【イア・レトナ】",
       "attribute": "freeze",
+      "imagePath": "ia_n",
       "collaboration": true
    }
 ]

@@ -1,8 +1,8 @@
-import Link from "next/link";
+import { Link } from "gatsby";
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import styles from "./Header.module.css";
-import { BackgroundColor } from "./palette";
+import { BackgroundColor, TextColor } from "./palette";
+
 type Props = {
    siteTitle: string;
 };
@@ -25,8 +25,14 @@ const Header = ({ siteTitle }: Props): JSX.Element => {
             }}
          >
             <h1 style={{ margin: 0, fontSize: isMobile ? "1.2em" : "2rem" }}>
-               <Link href="/">
-                  <a className={styles.link}>{siteTitle}</a>
+               <Link
+                  to="/"
+                  style={{
+                     color: TextColor.LightPrimary,
+                     textDecoration: `none`,
+                  }}
+               >
+                  {siteTitle}
                </Link>
             </h1>
          </div>
