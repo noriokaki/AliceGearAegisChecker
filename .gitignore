@@ -54,7 +54,6 @@ typings/
 # dotenv environment variable files
 .env*
 
-
 # Mac files
 .DS_Store
 
@@ -67,3 +66,5 @@ yarn-error.log
 
 .next
 next-env.d.ts
+public/sw.js
+public/workbox*.js
