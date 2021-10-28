@@ -1,39 +1,23 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import GitHub from "@material-ui/icons/GitHub";
 import Twitter from "@material-ui/icons/Twitter";
-import { graphql, useStaticQuery } from "gatsby";
 import React, { ReactNode } from "react";
-import { SiteTitleQuery } from "../../types/graphql-types";
+import config from "../config";
 import Header from "./Header";
-import "./layout.css";
 import { ColorPalette } from "./palette";
+
 type Props = {
    children: ReactNode;
 };
 const Layout = ({ children }: Props): JSX.Element => {
-   const data: SiteTitleQuery = useStaticQuery(graphql`
-      query SiteTitle {
-         site {
-            siteMetadata {
-               title
-            }
-         }
-      }
-   `);
+   const siteTitle = config.title;
 
-   if (data.site?.siteMetadata?.title == undefined) {
+   if (siteTitle == undefined) {
       throw new Error("no site title");
    }
 
    return (
       <>
-         <Header siteTitle={data.site.siteMetadata.title} />
+         <Header siteTitle={siteTitle} />
          <div
             style={{
                margin: `0 auto`,
