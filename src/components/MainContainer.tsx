@@ -1,6 +1,7 @@
 import Container from "@material-ui/core/Container";
+import { graphql, useStaticQuery } from "gatsby";
 import React, { useEffect, useReducer } from "react";
-import data from "../../assets/data/Actress.json";
+import { ActressesListQuery } from "../../types/graphql-types";
 import { select } from "../models/ActionCreator";
 import { ActressType } from "../models/DataTypes";
 import reducer from "../models/Reducer";
@@ -11,11 +12,35 @@ import Spacer from "./Spacer";
 import { db } from "./Storage";
 
 const actressesListItem = (): readonly ActressType[] => {
-   return data
+   const data: ActressesListQuery = useStaticQuery(graphql`
+      query ActressesList {
+         allActressJson {
+            edges {
+               node {
+                  id
+                  attribute
+                  name
+                  shortName
+                  imagePath
+                  another
+                  collaboration
+               }
+            }
+         }
+      }
+   `);
+
+   return data.allActressJson.edges
       .map((item) => {
          return {
-            ...item,
+            id: item.node.id,
+            name: item.node.name,
+            shortName: item.node.shortName,
+            attribute: item.node.attribute,
             isSelect: false,
+            imagePath: item.node.imagePath,
+            another: item.node.another,
+            collaboration: item.node.collaboration,
          } as ActressType;
       })
       .filter((v): v is ActressType => v !== null);
