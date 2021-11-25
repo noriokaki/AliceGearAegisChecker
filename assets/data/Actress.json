@@ -903,5 +903,19 @@
       "another": "【イア・レトナ】",
       "attribute": "freeze",
       "collaboration": true
+   },
+   {
+      "id": "8401e18e-fb20-41c1-84ad-3a38ef7afb89",
+      "name": "牧瀬紅 莉栖",
+      "shortName": "牧瀬紅 莉栖",
+      "attribute": "gravity",
+      "collaboration": true
+   },
+   {
+      "id": "85f35c4b-f091-46f2-a168-a882815adad2",
+      "name": "阿万音 鈴羽",
+      "shortName": "阿万音 鈴羽",
+      "attribute": "electric",
+      "collaboration": true
    }
 ]
