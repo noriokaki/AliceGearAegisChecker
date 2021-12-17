@@ -202,6 +202,14 @@
       "imagePath": "yayoi_a"
    },
    {
+      "id": "b33233fc-399e-4f41-bcf3-96f49bd27cbe",
+      "name": "藤野 やよい",
+      "shortName": "藤野 やよい",
+      "factor": "ライブ",
+      "attribute": "heat",
+      "imagePath": "yayoi_f"
+   },
+   {
       "id": "4fda603f-613c-5a6d-814e-72668eb4e6ab",
       "name": "下落合 桃歌",
       "shortName": "下落合 桃歌",
@@ -215,6 +223,14 @@
       "another": "明星",
       "attribute": "electric",
       "imagePath": "touka_a"
+   },
+   {
+      "id": "d5baa787-a5cd-4165-b3cd-513bdbf38c9a",
+      "name": "下落合 桃歌",
+      "shortName": "下落合 桃歌",
+      "factor": "ライブ",
+      "attribute": "electric",
+      "imagePath": "touka_f"
    },
    {
       "id": "c219fd59-eba2-4540-a5b0-48fa49cfa30e",
