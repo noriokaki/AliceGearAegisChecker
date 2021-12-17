@@ -4,6 +4,7 @@ import { ActressType, StateType } from "../DataTypes";
 const kindFilter: StateType["kindFilter"] = {
    another: true,
    collaboration: true,
+   factor: true,
    normal: true,
 };
 const yotuyuData = {
@@ -30,12 +31,22 @@ const rinData = {
    attribute: "heat",
    isSelect: true,
 } as const;
+const yayoiData = {
+   id: "b33233fc-399e-4f41-bcf3-96f49bd27cbe",
+   name: "藤野 やよい",
+   factor: "ライブ",
+   attribute: "heat",
+   isSelect: true,
+} as const;
+
 const testData: readonly ActressType[] = [
    yotuyuData,
    fumikaData,
    sitaraData,
    rinData,
+   yayoiData,
 ] as const;
+
 describe("アクトレス属性フィルター", () => {
    it("フィルターなし", () => {
       const attributeFilter = {
@@ -47,7 +58,7 @@ describe("アクトレス属性フィルター", () => {
       };
       expect(
          actressFilter({ actresses: testData, attributeFilter, kindFilter }),
-      ).toHaveLength(4);
+      ).toHaveLength(5);
    });
    it("選択なし", () => {
       const attributeFilter = {
@@ -107,7 +118,7 @@ describe("アクトレス属性フィルター", () => {
       };
       expect(
          actressFilter({ actresses: testData, attributeFilter, kindFilter }),
-      ).toStrictEqual([rinData]);
+      ).toStrictEqual([rinData, yayoiData]);
    });
    it("電撃＋重力", () => {
       const attributeFilter = {
@@ -131,7 +142,7 @@ describe("アクトレス属性フィルター", () => {
       };
       expect(
          actressFilter({ actresses: testData, attributeFilter, kindFilter }),
-      ).toStrictEqual([fumikaData, rinData]);
+      ).toStrictEqual([fumikaData, rinData, yayoiData]);
    });
    it("氷結+重力＋焼夷", () => {
       const attributeFilter = {
@@ -143,7 +154,7 @@ describe("アクトレス属性フィルター", () => {
       };
       expect(
          actressFilter({ actresses: testData, attributeFilter, kindFilter }),
-      ).toStrictEqual([fumikaData, sitaraData, rinData]);
+      ).toStrictEqual([fumikaData, sitaraData, rinData, yayoiData]);
    });
    it("電撃＋氷結＋重力＋焼夷", () => {
       const attributeFilter = {
@@ -155,6 +166,36 @@ describe("アクトレス属性フィルター", () => {
       };
       expect(
          actressFilter({ actresses: testData, attributeFilter, kindFilter }),
-      ).toStrictEqual([yotuyuData, fumikaData, sitaraData, rinData]);
+      ).toStrictEqual([yotuyuData, fumikaData, sitaraData, rinData, yayoiData]);
+   });
+});
+
+describe("アクトレスファクターフィルター", () => {
+   const attributeFilter = {
+      enable: true,
+      electric: true,
+      freeze: true,
+      gravity: true,
+      heat: true,
+   };
+   test("フィルターON", () => {
+      const kindFilter = {
+         another: false,
+         collaboration: false,
+         factor: true,
+         normal: false
+      };
+      expect(actressFilter({ actresses: testData, attributeFilter, kindFilter }))
+         .toStrictEqual([yayoiData]);
+   });
+   test("フィルターOFF", () => {
+      const kindFilter = {
+         another: true,
+         collaboration: true,
+         factor: false,
+         normal: true
+      };
+      expect(actressFilter({ actresses: testData, attributeFilter, kindFilter }))
+         .toStrictEqual(testData.filter(a => a.factor == null));
    });
 });

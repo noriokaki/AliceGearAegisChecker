@@ -34,6 +34,7 @@ const MainContainer = (): JSX.Element => {
       kindFilter: {
          normal: true,
          another: true,
+         factor: true,
          collaboration: true,
       },
    });

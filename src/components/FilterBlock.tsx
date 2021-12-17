@@ -82,6 +82,24 @@ const FilterBlock = ({
                control={
                   <Checkbox
                      disabled={isDisable}
+                     checked={kindFilter.factor}
+                     style={{ color: blueGrey[400] }}
+                     onChange={(): void =>
+                        dispatch(
+                           updateKindFilter({
+                              ...kindFilter,
+                              factor: !kindFilter.factor,
+                           }),
+                        )
+                     }
+                  />
+               }
+               label="ファクター"
+            />
+            <FormControlLabel
+               control={
+                  <Checkbox
+                     disabled={isDisable}
                      checked={kindFilter.collaboration}
                      style={{ color: blueGrey[400] }}
                      onChange={(): void =>

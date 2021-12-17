@@ -31,10 +31,13 @@ const actressFilter = (state: StateType): StateType["actresses"] => {
          ) {
             return false;
          }
-         if (actress?.another == null && state.kindFilter.normal) {
+         if (actress.another == null && actress.factor == null && state.kindFilter.normal) {
             return true;
          }
-         if (actress?.another != null && state.kindFilter.another) {
+         if (actress.another != null && state.kindFilter.another) {
+            return true;
+         }
+         if (actress.factor != null && state.kindFilter.factor) {
             return true;
          }
 

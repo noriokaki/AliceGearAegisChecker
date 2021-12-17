@@ -10,18 +10,22 @@ export type StateType = {
    kindFilter: {
       normal: boolean;
       another: boolean;
+      factor: boolean;
       collaboration: boolean;
    };
 };
 
-export type ActressType = Readonly<{
+export type ActressType = Readonly<BasicActressType & Partial<AnotherType | FactorType>>;
+type BasicActressType = {
    id: string;
    name: string;
-   shortName?: string;
    attribute: AttributeType;
-   another?: string;
+   shortName?: string;
    collaboration?: true;
    isSelect: boolean;
    imagePath?: string;
-}>;
+};
+type AnotherType = { another: string; factor: undefined; };
+type FactorType = { factor: string; another: undefined; };
+
 export type AttributeType = "electric" | "gravity" | "freeze" | "heat";
