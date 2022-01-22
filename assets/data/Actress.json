@@ -7,6 +7,14 @@
       "imagePath": "yotuyu_n"
    },
    {
+      "id": "30b8fc57-bfb1-45e8-b0de-44a9c56b683f",
+      "name": "比良坂 夜露",
+      "shortName": "比良坂 夜露",
+      "factor": "コネクト",
+      "attribute": "electric",
+      "imagePath": "yotuyu_f"
+   },
+   {
       "id": "524fbde2-634a-51fd-af73-bdd1bffc7abd",
       "name": "比良坂 夜露",
       "shortName": "比良坂 夜露",
@@ -65,6 +73,14 @@
       "shortName": "吾妻 楓",
       "attribute": "electric",
       "imagePath": "kaede_n"
+   },
+   {
+      "id": "e085acd5-416e-40a0-b655-2e001b91e1ba",
+      "name": "吾妻 楓",
+      "shortName": "吾妻 楓",
+      "factor": "ネクスト",
+      "attribute": "electric",
+      "imagePath": "kaede_f"
    },
    {
       "id": "b67644c1-e5d9-5b28-b643-c2d6537114fe",
