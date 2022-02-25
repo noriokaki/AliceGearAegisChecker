@@ -166,6 +166,14 @@
       "imagePath": "mai_a"
    },
    {
+      "id": "bfd31285-1044-4318-bf59-71e7ca923381",
+      "name": "二子玉 舞",
+      "shortName": "二子玉 舞",
+      "factor": "ライブ",
+      "attribute": "freeze",
+      "imagePath": "mai_f"
+   },
+   {
       "id": "a83c8598-dfac-502b-b43f-587552df34ca",
       "name": "バージニア・グリンベレー",
       "shortName": "バージニア・G",
@@ -179,6 +187,14 @@
       "another": "MOBIUS",
       "attribute": "heat",
       "imagePath": "virginia_a"
+   },
+   {
+      "id": "d1d5ef95-f427-4f08-b6d3-4fce54469028",
+      "name": "バージニア・グリンベレー",
+      "shortName": "バージニア・G",
+      "factor": "ライブ",
+      "attribute": "heat",
+      "imagePath": "virginia_f"
    },
    {
       "id": "51b87bbf-d0f5-55f1-84d3-a18d8e649b50",
