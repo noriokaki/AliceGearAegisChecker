@@ -291,7 +291,8 @@
       "name": "シャーリー・オークレイ",
       "shortName": "シャーリー・O",
       "attribute": "electric",
-      "another": "撃壌"
+      "another": "撃壌",
+      "imagePath": "shirley_a"
    },
    {
       "id": "2351eb07-c832-5b2d-b40c-759adcc65911",
@@ -744,6 +745,12 @@
       "name": "アデライーデ・ブルートハウゼン",
       "shortName": "アデライーデ・B",
       "attribute": "freeze"
+   },
+   {
+      "id": "2e702ac8-7913-4c79-b7da-30404886c8ca",
+      "name": "米良渕 花浪",
+      "shortName": "米良渕 花浪",
+      "attribute": "heat"
    },
    {
       "id": "962b89a8-1a52-5d7f-afc8-609b72f9299b",
