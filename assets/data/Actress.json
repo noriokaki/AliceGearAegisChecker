@@ -7,20 +7,20 @@
       "imagePath": "yotuyu_n"
    },
    {
-      "id": "30b8fc57-bfb1-45e8-b0de-44a9c56b683f",
-      "name": "比良坂 夜露",
-      "shortName": "比良坂 夜露",
-      "factor": "コネクト",
-      "attribute": "electric",
-      "imagePath": "yotuyu_f"
-   },
-   {
       "id": "524fbde2-634a-51fd-af73-bdd1bffc7abd",
       "name": "比良坂 夜露",
       "shortName": "比良坂 夜露",
       "another": "勇躍",
       "attribute": "electric",
       "imagePath": "yotuyu_a"
+   },
+   {
+      "id": "30b8fc57-bfb1-45e8-b0de-44a9c56b683f",
+      "name": "比良坂 夜露",
+      "shortName": "比良坂 夜露",
+      "factor": "コネクト",
+      "attribute": "electric",
+      "imagePath": "yotuyu_f"
    },
    {
       "id": "64d1dd5e-a7f5-57fa-9eae-0b49f428d3bd",
@@ -75,20 +75,20 @@
       "imagePath": "kaede_n"
    },
    {
-      "id": "e085acd5-416e-40a0-b655-2e001b91e1ba",
-      "name": "吾妻 楓",
-      "shortName": "吾妻 楓",
-      "factor": "ネクスト",
-      "attribute": "electric",
-      "imagePath": "kaede_f"
-   },
-   {
       "id": "b67644c1-e5d9-5b28-b643-c2d6537114fe",
       "name": "吾妻 楓",
       "shortName": "吾妻 楓",
       "another": "皆伝",
       "attribute": "electric",
       "imagePath": "kaede_a"
+   },
+   {
+      "id": "e085acd5-416e-40a0-b655-2e001b91e1ba",
+      "name": "吾妻 楓",
+      "shortName": "吾妻 楓",
+      "factor": "ネクスト",
+      "attribute": "electric",
+      "imagePath": "kaede_f"
    },
    {
       "id": "02bbdd80-0124-5ef7-93b1-cf81eac80362",
@@ -485,7 +485,8 @@
       "name": "須賀 乙莉",
       "shortName": "須賀 乙莉",
       "attribute": "gravity",
-      "another": "仰望"
+      "another": "仰望",
+      "imagePath": "ituri_a"
    },
    {
       "id": "73028a39-59b8-5f93-a703-6e07e5a56d26",
@@ -521,7 +522,8 @@
       "name": "琴村 朱音",
       "shortName": "琴村 朱音",
       "attribute": "heat",
-      "another": "炎天"
+      "another": "炎天",
+      "imagePath": "akane_a"
    },
    {
       "id": "a8d41314-441b-5200-818c-390de5ce97c4",
@@ -535,7 +537,8 @@
       "name": "琴村 天音",
       "shortName": "琴村 天音",
       "attribute": "freeze",
-      "another": "玄天"
+      "another": "玄天",
+      "imagePath": "amane_a"
    },
    {
       "id": "bc75747e-3ee5-5c54-86ce-00e5a66cfe6f",
@@ -564,7 +567,8 @@
       "name": "ニーナ・カリーニナ",
       "shortName": "ニーナ・K",
       "attribute": "freeze",
-      "another": "破軍"
+      "another": "破軍",
+      "imagePath": "nina_a"
    },
    {
       "id": "e67cf060-67a5-5d34-aa68-1f0ed5ceb351",
@@ -636,7 +640,8 @@
       "name": "二階堂 司",
       "shortName": "二階堂 司",
       "attribute": "freeze",
-      "another": "芝蘭"
+      "another": "芝蘭",
+      "imagePath": "tukasa_a"
    },
    {
       "id": "f28be965-4789-588c-92e4-e090a39619a3",
@@ -650,7 +655,15 @@
       "name": "御茶ノ水 美里江",
       "shortName": "御茶ノ水 美里江",
       "another": "無辜",
-      "attribute": "electric"
+      "attribute": "electric",
+      "imagePath": "mirie_a"
+   },
+   {
+      "id": "2e702ac8-7913-4c79-b7da-30404886c8ca",
+      "name": "米良渕 花浪",
+      "shortName": "米良渕 花浪",
+      "attribute": "heat",
+      "imagePath": "kanami_n"
    },
    {
       "id": "93735093-77a7-5fa6-849a-5d0226725208",
@@ -664,7 +677,8 @@
       "name": "リタ・ヘンシェル",
       "shortName": "リタ・H",
       "another": "巧匠",
-      "attribute": "gravity"
+      "attribute": "gravity",
+      "imagePath": "rita_a"
    },
    {
       "id": "3967a736-e74f-588b-ae57-ee4aa3f61db8",
@@ -678,7 +692,8 @@
       "name": "金潟 すぐみ",
       "shortName": "金潟 すぐみ",
       "another": "臥薪",
-      "attribute": "electric"
+      "attribute": "electric",
+      "imagePath": "sugumi_a"
    },
    {
       "id": "54f55f5a-cbc4-5fd2-9ca1-1bae0f554b9d",
@@ -692,19 +707,22 @@
       "name": "新居目 安里",
       "shortName": "新居目 安里",
       "attribute": "gravity",
-      "another": "紺碧"
+      "another": "紺碧",
+      "imagePath": "yasuri_a"
    },
    {
       "id": "c9217bac-a5e1-482c-9e07-d40f8e2d280b",
       "name": "的場 アオイ",
       "shortName": "的場 アオイ",
-      "attribute": "freeze"
+      "attribute": "freeze",
+      "imagePath": "aoi_n"
    },
    {
       "id": "23df92f0-edc3-4feb-9246-3ccd546ab7c9",
       "name": "在賀 奈々",
       "shortName": "在賀 奈々",
-      "attribute": "gravity"
+      "attribute": "gravity",
+      "imagePath": "nana_n"
    },
    {
       "id": "c1526023-6acb-46b3-8074-2db6e7384ad9",
@@ -738,19 +756,15 @@
       "id": "b4f7d50b-209d-4cd8-8d50-1c61a26bff4c",
       "name": "春日丘 もえ",
       "shortName": "春日丘 もえ",
-      "attribute": "heat"
+      "attribute": "heat",
+      "imagePath": "moe_n"
    },
    {
       "id": "110ac47c-2dbe-443d-a807-46a4d95f7d26",
       "name": "アデライーデ・ブルートハウゼン",
       "shortName": "アデライーデ・B",
-      "attribute": "freeze"
-   },
-   {
-      "id": "2e702ac8-7913-4c79-b7da-30404886c8ca",
-      "name": "米良渕 花浪",
-      "shortName": "米良渕 花浪",
-      "attribute": "heat"
+      "attribute": "freeze",
+      "imagePath": "adi_n"
    },
    {
       "id": "962b89a8-1a52-5d7f-afc8-609b72f9299b",
@@ -838,14 +852,16 @@
       "name": "坂本 美緒",
       "shortName": "坂本 美緒",
       "attribute": "heat",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "mio_n"
    },
    {
       "id": "891e794c-e5f3-4589-95bf-a5a7ecdf3594",
       "name": "ペリーヌ＝H・クロステルマン",
       "shortName": "ペリーヌ・C",
       "attribute": "electric",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "perrine_n"
    },
    {
       "id": "9fae8702-794f-5eff-a274-a6350557dfb2",
@@ -965,20 +981,23 @@
       "shortName": "イア・レトナ",
       "another": "【イア・レトナ】",
       "attribute": "freeze",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "ti2_a"
    },
    {
       "id": "8401e18e-fb20-41c1-84ad-3a38ef7afb89",
       "name": "牧瀬紅 莉栖",
       "shortName": "牧瀬紅 莉栖",
       "attribute": "gravity",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "makise_n"
    },
    {
       "id": "85f35c4b-f091-46f2-a168-a882815adad2",
       "name": "阿万音 鈴羽",
       "shortName": "阿万音 鈴羽",
       "attribute": "electric",
-      "collaboration": true
+      "collaboration": true,
+      "imagePath": "suzuha_n"
    }
 ]
