@@ -607,11 +607,27 @@
       "imagePath": "tie_n"
    },
    {
+      "id": "deb26f8a-b052-4796-aa57-b17041f7c03a",
+      "name": "東雲 チヱ",
+      "shortName": "東雲 チヱ",
+      "attribute": "heat",
+      "another": "流転",
+      "imagePath": "tie_a"
+   },
+   {
       "id": "69c1fc91-7f13-51cf-874d-caf45031a6b8",
       "name": "御蔵座 梓希",
       "shortName": "御蔵座 梓希",
       "attribute": "electric",
       "imagePath": "azuki_n"
+   },
+   {
+      "id": "15585b6e-93e6-46c1-a316-d20d9d309eb1",
+      "name": "御蔵座 梓希",
+      "shortName": "御蔵座 梓希",
+      "attribute": "electric",
+      "another": "招福",
+      "imagePath": "azuki_a"
    },
    {
       "id": "13cf6980-87e7-5bfe-81d6-0cb9249f6a14",
