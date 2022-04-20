@@ -896,6 +896,22 @@
       "imagePath": "kurumi_n"
    },
    {
+      "id": "a77bdfad-c85d-4b3e-8825-0fc1efe81a2f",
+      "name": "粒咲 あんこ",
+      "shortName": "粒咲 あんこ",
+      "attribute": "gravity",
+      "collaboration": true,
+      "imagePath": "anko_n"
+   },
+   {
+      "id": "8412207f-fc04-4c7d-8d7a-6a2d8e8ecf49",
+      "name": "楠 明日葉",
+      "shortName": "楠 明日葉",
+      "attribute": "freeze",
+      "collaboration": true,
+      "imagePath": "asuha_n"
+   },
+   {
       "id": "678e4d86-d797-5573-8ffd-cb89dfd4c32a",
       "name": "綿木 ミシェル",
       "shortName": "綿木 ミシェル",
