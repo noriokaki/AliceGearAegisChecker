@@ -53,6 +53,14 @@
       "imagePath": "rin_a"
    },
    {
+      "id": "5f6d468e-38ed-4b5c-813c-3cbad747c28f",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "factor": "ネクスト",
+      "attribute": "heat",
+      "imagePath": "rin_f"
+   },
+   {
       "id": "8bed052f-fa26-5cf7-914e-64483f5f6862",
       "name": "百科 文嘉",
       "shortName": "百科 文嘉",
@@ -398,6 +406,14 @@
       "another": "残火",
       "attribute": "heat",
       "imagePath": "raiya_a"
+   },
+   {
+      "id": "7a75ca0f-f410-46d3-820e-8a5b67d883eb",
+      "name": "蛙坂 来弥",
+      "shortName": "蛙坂 来弥",
+      "factor": "ネクスト",
+      "attribute": "heat",
+      "imagePath": "raiya_f"
    },
    {
       "id": "b4a7adf7-0f5d-55ce-844c-80f3bed7ba24",
