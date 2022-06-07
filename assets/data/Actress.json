@@ -527,6 +527,14 @@
       "imagePath": "yuuto_n"
    },
    {
+      "id": "5d6f4053-2322-4b21-b232-354cc71e35a6",
+      "name": "九炉鉄 悠都",
+      "shortName": "九炉鉄 悠都",
+      "attribute": "heat",
+      "another": "引導",
+      "imagePath": "yuuto_a"
+   },
+   {
       "id": "44003d42-471b-5c81-8861-6363b3e5c6d9",
       "name": "琴村 朱音",
       "shortName": "琴村 朱音",
