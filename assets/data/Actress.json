@@ -550,6 +550,14 @@
       "imagePath": "akane_a"
    },
    {
+      "id": "25304260-abac-4e1f-a91a-5bd3ffc50c4f",
+      "name": "琴村 朱音",
+      "shortName": "琴村 朱音",
+      "attribute": "heat",
+      "factor": "ライブ",
+      "imagePath": "akane_f"
+   },
+   {
       "id": "a8d41314-441b-5200-818c-390de5ce97c4",
       "name": "琴村 天音",
       "shortName": "琴村 天音",
@@ -563,6 +571,14 @@
       "attribute": "freeze",
       "another": "玄天",
       "imagePath": "amane_a"
+   },
+   {
+      "id": "3e518ca9-291c-4577-8962-998569223237",
+      "name": "琴村 天音",
+      "shortName": "琴村 天音",
+      "attribute": "freeze",
+      "factor": "ライブ",
+      "imagePath": "amane_f"
    },
    {
       "id": "bc75747e-3ee5-5c54-86ce-00e5a66cfe6f",
