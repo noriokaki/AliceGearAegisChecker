@@ -1008,6 +1008,14 @@
       "imagePath": "marie_n"
    },
    {
+      "id": "1cb4b6e9-d5e6-43ac-a89c-6ba048b23254",
+      "name": "女天狗",
+      "shortName": "女天狗",
+      "attribute": "heat",
+      "collaboration": true,
+      "imagePath": "nyoteng_n"
+   },
+   {
       "id": "6fd2ee97-cabb-4a1a-ba8d-d0dfd805e5f1",
       "name": "シルフィーII",
       "shortName": "シルフィーII",
