@@ -1110,5 +1110,21 @@
       "attribute": "electric",
       "collaboration": true,
       "imagePath": "suzuha_n"
+   },
+   {
+      "id": "0afbf81c-d16d-4149-9c76-6e2267270c4c",
+      "name": "ターニャ・デグレチャフ",
+      "shortName": "ターニャ",
+      "attribute": "electric",
+      "collaboration": true,
+      "imagePath": "tanya_n"
+   },
+   {
+      "id": "43dacae5-5f09-43bf-892f-4c25b37b66ee",
+      "name": "ヴィクトーリヤ・イヴァーノヴナ・セレブリャコーフ",
+      "shortName": "ヴィーシャ",
+      "attribute": "heat",
+      "collaboration": true,
+      "imagePath": "viktoriya_n"
    }
 ]
