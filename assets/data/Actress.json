@@ -841,6 +841,14 @@
       "imagePath": "sora_n"
    },
    {
+      "id": "e672563e-0730-4b33-a3f0-bc9719a5efb1",
+      "name": "天狐 天",
+      "shortName": "天狐 天",
+      "attribute": "freeze",
+      "another": "御侠",
+      "imagePath": "sora_a"
+   },
+   {
       "id": "33b2a6d8-a827-4de3-877b-2404adbe144a",
       "name": "波佐見 利佳",
       "shortName": "波佐見 利佳",
