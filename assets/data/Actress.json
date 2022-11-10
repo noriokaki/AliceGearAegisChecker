@@ -657,6 +657,14 @@
       "imagePath": "mia_n"
    },
    {
+      "id": "2b63e550-a138-49d5-98f1-929f7757bdf2",
+      "name": "ミア・ヴォワザン",
+      "shortName": "ミア・V",
+      "attribute": "freeze",
+      "another": "恭敬",
+      "imagePath": "mia_a"
+   },
+   {
       "id": "bb380504-396a-534c-bf61-2544a60caa10",
       "name": "千島 美幸",
       "shortName": "千島 美幸",
