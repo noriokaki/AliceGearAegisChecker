@@ -1158,5 +1158,21 @@
       "attribute": "heat",
       "collaboration": true,
       "imagePath": "viktoriya_n"
+   },
+   {
+      "id": "b6c36e7b-83d6-43cb-baad-88d5967258c3",
+      "name": "ケイ",
+      "shortName": "ケイ",
+      "attribute": "heat",
+      "collaboration": true,
+      "imagePath": "kei_n"
+   },
+   {
+      "id": "73ccfc84-b0ab-454a-aee0-651858f70640",
+      "name": "ユリ",
+      "shortName": "ユリ",
+      "attribute": "freeze",
+      "collaboration": true,
+      "imagePath": "yuri_n"
    }
 ]
