@@ -469,6 +469,14 @@
       "another": "玉響"
    },
    {
+      "id": "340b00f6-db51-4341-9eba-59acbdafa7b9",
+      "name": "州天頃 椎奈",
+      "shortName": "州天頃 椎奈",
+      "attribute": "electric",
+      "imagePath": "siina_f",
+      "factor": "ブレイブ"
+   },
+   {
       "id": "72647534-fe4e-50ac-8f0c-4217b209e225",
       "name": "仁紀藤 奏",
       "shortName": "仁紀藤 奏",
@@ -482,6 +490,14 @@
       "attribute": "gravity",
       "another": "雲耀",
       "imagePath": "kanade_a"
+   },
+   {
+      "id": "3cce0a98-5a1c-4125-8d0b-a23101ba3591",
+      "name": "仁紀藤 奏",
+      "shortName": "仁紀藤 奏",
+      "attribute": "gravity",
+      "factor": "ブレイブ",
+      "imagePath": "kanade_f"
    },
    {
       "id": "abc1c22b-8681-51c3-a7f3-3141d38a561e",
