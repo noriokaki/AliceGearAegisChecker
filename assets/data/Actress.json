@@ -800,6 +800,20 @@
       "imagePath": "akino_n"
    },
    {
+      "id": "9819e913-2a7b-4a6b-a6c1-8241266f9c59",
+      "name": "巽 竜子",
+      "shortName": "巽 竜子",
+      "attribute": "gravity",
+      "imagePath": "ryuuko_n"
+   },
+   {
+      "id": "405ac27a-01d0-40d7-a974-098664d10fac",
+      "name": "鳳 加純",
+      "shortName": "鳳 加純",
+      "attribute": "heat",
+      "imagePath": "kasumi_o_n"
+   },
+   {
       "id": "3967a736-e74f-588b-ae57-ee4aa3f61db8",
       "name": "金潟 すぐみ",
       "shortName": "金潟 すぐみ",
