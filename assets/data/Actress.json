@@ -114,6 +114,14 @@
       "imagePath": "rei_a"
    },
    {
+      "id": "198ee13d-b8f3-4f90-a610-97e47abea7bb",
+      "name": "小鳥遊 怜",
+      "shortName": "小鳥遊 怜",
+      "factor": "ネクスト",
+      "attribute": "freeze",
+      "imagePath": "rei_f"
+   },
+   {
       "id": "2be48d40-2e9f-5d41-96af-cacda61be3d6",
       "name": "一条 綾香",
       "shortName": "一条 綾香",
@@ -127,6 +135,14 @@
       "another": "英俊",
       "attribute": "heat",
       "imagePath": "ayaka_a"
+   },
+   {
+      "id": "099484f6-2668-4d03-a98f-af24bca0242f",
+      "name": "一条 綾香",
+      "shortName": "一条 綾香",
+      "factor": "ネクスト",
+      "attribute": "heat",
+      "imagePath": "ayaka_f"
    },
    {
       "id": "0ac797a3-378b-568f-b07d-28bee2f0eb21",
