@@ -964,6 +964,22 @@
       "imagePath": "hresvelgr_n"
    },
    {
+      "id": "c82403d5-dd04-4873-bcf3-fedd093a3937",
+      "name": "源内 あお",
+      "shortName": "源内 あお",
+      "attribute": "heat",
+      "collaboration": true,
+      "imagePath": "ao_n"
+   },
+   {
+      "id": "d33ecd8a-408f-4eb5-aadf-956a66c93523",
+      "name": "寿 武希子",
+      "shortName": "寿 武希子",
+      "attribute": "freeze",
+      "collaboration": true,
+      "imagePath": "bukiko_n"
+   },
+   {
       "id": "a2998e8e-2663-55f7-8a45-6bfec605f73b",
       "name": "SOLラプター",
       "shortName": "SOLラプター",
