@@ -38,6 +38,14 @@
       "imagePath": "sitara_a"
    },
    {
+      "id": "a9d40413-6d9d-438c-b1f6-644c5f559b05",
+      "name": "兼志谷 シタラ",
+      "shortName": "兼志谷 シタラ",
+      "factor": "ブレイブ",
+      "attribute": "gravity",
+      "imagePath": "sitara_f"
+   },
+   {
       "id": "90be9da8-126e-52d6-9194-0954eab0fe63",
       "name": "日向 リン",
       "shortName": "日向 リン",
@@ -74,6 +82,14 @@
       "another": "智将",
       "attribute": "freeze",
       "imagePath": "fumika_a"
+   },
+   {
+      "id": "4d7d4432-59c8-42e4-8dda-83a72cafd839",
+      "name": "百科 文嘉",
+      "shortName": "百科 文嘉",
+      "factor": "ブレイブ",
+      "attribute": "freeze",
+      "imagePath": "fumika_f"
    },
    {
       "id": "80705fb4-7c64-5675-828c-856485053260",
