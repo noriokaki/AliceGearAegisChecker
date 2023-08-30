@@ -1330,5 +1330,22 @@
       "attribute": "freeze",
       "collaboration": true,
       "imagePath": "yuri_n"
+   },
+   {
+      "id": "5c89ef70-0305-4e2f-836d-7859680270c8",
+      "name": "初音 ミク",
+      "shortName": "初音 ミク",
+      "attribute": "freeze",
+      "collaboration": true,
+      "imagePath": "miku_n"
+   },
+   {
+      "id": "3c793b08-b1b4-4a25-b330-5ad4d2b36035",
+      "name": "初音 ミク",
+      "shortName": "初音 ミク",
+      "attribute": "heat",
+      "collaboration": true,
+      "another": true,
+      "imagePath": "miku_a"
    }
 ]
