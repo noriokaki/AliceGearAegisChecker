@@ -11,6 +11,7 @@ export type StateType = {
       normal: boolean;
       another: boolean;
       factor: boolean;
+      main: boolean;
       collaboration: boolean;
    };
 };

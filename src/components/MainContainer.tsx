@@ -35,6 +35,7 @@ const MainContainer = (): JSX.Element => {
          normal: true,
          another: true,
          factor: true,
+         main: true,
          collaboration: true,
       },
    });

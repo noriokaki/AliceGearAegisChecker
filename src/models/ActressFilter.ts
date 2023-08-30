@@ -7,6 +7,7 @@ const actressFilter = (state: StateType): StateType["actresses"] => {
 
    return state.actresses
       .filter((actress) => {
+
          if (
             actress.attribute === "electric" &&
             state.attributeFilter.electric
@@ -25,6 +26,11 @@ const actressFilter = (state: StateType): StateType["actresses"] => {
          return false;
       })
       .filter((actress) => {
+         if (actress.collaboration === undefined &&
+            state.kindFilter.main === false
+         ) {
+            return false;
+         }
          if (
             actress?.collaboration == true &&
             state.kindFilter.collaboration == false

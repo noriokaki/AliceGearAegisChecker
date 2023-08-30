@@ -3,6 +3,7 @@ import { ActressType, StateType } from "../DataTypes";
 
 const kindFilter: StateType["kindFilter"] = {
    another: true,
+   main: true,
    collaboration: true,
    factor: true,
    normal: true,
@@ -181,6 +182,7 @@ describe("アクトレスファクターフィルター", () => {
    test("フィルターON", () => {
       const kindFilter = {
          another: false,
+         main: true,
          collaboration: false,
          factor: true,
          normal: false
@@ -191,6 +193,7 @@ describe("アクトレスファクターフィルター", () => {
    test("フィルターOFF", () => {
       const kindFilter = {
          another: true,
+         main: true,
          collaboration: true,
          factor: false,
          normal: true

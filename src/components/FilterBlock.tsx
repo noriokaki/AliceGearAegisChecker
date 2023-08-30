@@ -1,5 +1,5 @@
 // eslint-disable-next-line prettier/prettier
-import { Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel } from "@material-ui/core";
+import { Checkbox, Divider, FormControl, FormControlLabel, FormGroup, FormLabel } from "@material-ui/core";
 import { blue, blueGrey, orange, purple, red } from "@material-ui/core/colors";
 import React, { Dispatch, useState } from "react";
 // eslint-disable-next-line prettier/prettier
@@ -95,6 +95,25 @@ const FilterBlock = ({
                   />
                }
                label="ファクター"
+            />
+            <Divider orientation="vertical" flexItem />
+            <FormControlLabel
+               control={
+                  <Checkbox
+                     disabled={isDisable}
+                     checked={kindFilter.main}
+                     style={{ color: blueGrey[400] }}
+                     onChange={(): void =>
+                        dispatch(
+                           updateKindFilter({
+                              ...kindFilter,
+                              main: !kindFilter.main,
+                           }),
+                        )
+                     }
+                  />
+               }
+               label="メイン"
             />
             <FormControlLabel
                control={
