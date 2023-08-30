@@ -46,29 +46,6 @@
       "imagePath": "sitara_f"
    },
    {
-      "id": "90be9da8-126e-52d6-9194-0954eab0fe63",
-      "name": "日向 リン",
-      "shortName": "日向 リン",
-      "attribute": "heat",
-      "imagePath": "rin_n"
-   },
-   {
-      "id": "cc5a0920-6242-55bf-8254-b6445fa7530a",
-      "name": "日向 リン",
-      "shortName": "日向 リン",
-      "another": "奔放",
-      "attribute": "heat",
-      "imagePath": "rin_a"
-   },
-   {
-      "id": "5f6d468e-38ed-4b5c-813c-3cbad747c28f",
-      "name": "日向 リン",
-      "shortName": "日向 リン",
-      "factor": "ネクスト",
-      "attribute": "heat",
-      "imagePath": "rin_f"
-   },
-   {
       "id": "8bed052f-fa26-5cf7-914e-64483f5f6862",
       "name": "百科 文嘉",
       "shortName": "百科 文嘉",
@@ -113,6 +90,29 @@
       "factor": "ネクスト",
       "attribute": "electric",
       "imagePath": "kaede_f"
+   },
+   {
+      "id": "90be9da8-126e-52d6-9194-0954eab0fe63",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "attribute": "heat",
+      "imagePath": "rin_n"
+   },
+   {
+      "id": "cc5a0920-6242-55bf-8254-b6445fa7530a",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "another": "奔放",
+      "attribute": "heat",
+      "imagePath": "rin_a"
+   },
+   {
+      "id": "5f6d468e-38ed-4b5c-813c-3cbad747c28f",
+      "name": "日向 リン",
+      "shortName": "日向 リン",
+      "factor": "ネクスト",
+      "attribute": "heat",
+      "imagePath": "rin_f"
    },
    {
       "id": "02bbdd80-0124-5ef7-93b1-cf81eac80362",
@@ -313,21 +313,6 @@
       "imagePath": "touka_f"
    },
    {
-      "id": "c219fd59-eba2-4540-a5b0-48fa49cfa30e",
-      "name": "伊戸倉 音緒",
-      "shortName": "伊戸倉 音緒",
-      "attribute": "electric",
-      "imagePath": "neo_n"
-   },
-   {
-      "id": "f919e8be-6cda-4eed-9698-130c93c321f4",
-      "name": "伊戸倉 音緒",
-      "shortName": "伊戸倉 音緒",
-      "attribute": "electric",
-      "another": "破手",
-      "imagePath": "neo_a"
-   },
-   {
       "id": "6c3d36fe-1fc6-5362-9d1a-45060c6c37a8",
       "name": "シャーリー・オークレイ",
       "shortName": "シャーリー・O",
@@ -341,6 +326,21 @@
       "attribute": "electric",
       "another": "撃壌",
       "imagePath": "shirley_a"
+   },
+   {
+      "id": "c219fd59-eba2-4540-a5b0-48fa49cfa30e",
+      "name": "伊戸倉 音緒",
+      "shortName": "伊戸倉 音緒",
+      "attribute": "electric",
+      "imagePath": "neo_n"
+   },
+   {
+      "id": "f919e8be-6cda-4eed-9698-130c93c321f4",
+      "name": "伊戸倉 音緒",
+      "shortName": "伊戸倉 音緒",
+      "attribute": "electric",
+      "another": "破手",
+      "imagePath": "neo_a"
    },
    {
       "id": "2351eb07-c832-5b2d-b40c-759adcc65911",
