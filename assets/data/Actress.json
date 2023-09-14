@@ -943,6 +943,14 @@
       "imagePath": "emi_n"
    },
    {
+      "id": "c0e023eb-2869-490b-b06e-105e2d92061e",
+      "name": "我龍 絵美",
+      "shortName": "我龍 絵美",
+      "another": "雅馴",
+      "attribute": "gravity",
+      "imagePath": "emi_a"
+   },
+   {
       "id": "a911990e-2f70-41c3-a4f9-86f747dfb476",
       "name": "天狐 天",
       "shortName": "天狐 天",
