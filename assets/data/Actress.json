@@ -176,6 +176,14 @@
       "imagePath": "aika_a"
    },
    {
+      "id": "87ea6f43-1b63-40a0-b993-c825490937e1",
+      "name": "相河 愛花",
+      "shortName": "相河 愛花",
+      "factor": "ネクスト",
+      "attribute": "electric",
+      "imagePath": "aika_f"
+   },
+   {
       "id": "7d189302-1f2f-5c8b-8c9a-2ce0537461d5",
       "name": "小芦 睦海",
       "shortName": "小芦 睦海",
@@ -189,6 +197,14 @@
       "another": "剛毅",
       "attribute": "freeze",
       "imagePath": "mutumi_a"
+   },
+   {
+      "id": "0973a3b4-f57b-44a9-9d4c-f27852c95311",
+      "name": "小芦 睦海",
+      "shortName": "小芦 睦海",
+      "factor": "ネクスト",
+      "attribute": "freeze",
+      "imagePath": "mutumi_f"
    },
    {
       "id": "bf3cb9cc-d453-5b0b-9b6d-2ebfe328a60b",
