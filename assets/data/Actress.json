@@ -1188,6 +1188,14 @@
       "imagePath": "miki_n"
    },
    {
+      "id": "a3a92e01-5092-4107-9515-5153a5b5099b",
+      "name": "天野 望",
+      "shortName": "天野 望",
+      "attribute": "electric",
+      "collaboration": true,
+      "imagePath": "nozomi_n"
+   },
+   {
       "id": "65a96986-baad-5d88-9b6d-190849d69303",
       "name": "常磐 くるみ",
       "shortName": "常磐 くるみ",
@@ -1202,6 +1210,14 @@
       "attribute": "gravity",
       "collaboration": true,
       "imagePath": "anko_n"
+   },
+   {
+      "id": "891695f4-d6cc-4563-aa61-18119c548b63",
+      "name": "芹沢 蓮華",
+      "shortName": "芹沢 蓮華",
+      "attribute": "gravity",
+      "collaboration": true,
+      "imagePath": "renge_n"
    },
    {
       "id": "8412207f-fc04-4c7d-8d7a-6a2d8e8ecf49",
