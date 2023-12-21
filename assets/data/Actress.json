@@ -419,6 +419,14 @@
       "imagePath": "anna_a"
    },
    {
+      "id": "053ec7dd-7a5b-4392-b6a0-b0c224a3b386",
+      "name": "宇佐元 杏奈",
+      "shortName": "宇佐元 杏奈",
+      "factor": "レジェンド",
+      "attribute": "electric",
+      "imagePath": "anna_f"
+   },
+   {
       "id": "e271e041-4468-5be2-82cf-853e212c42a3",
       "name": "神宮寺 真理",
       "shortName": "神宮寺 真理",
@@ -432,6 +440,14 @@
       "another": "孤影",
       "attribute": "electric",
       "imagePath": "mari_a"
+   },
+   {
+      "id": "0706ed5b-94bf-4eed-9dfb-4903a48ccea3",
+      "name": "神宮寺 真理",
+      "shortName": "神宮寺 真理",
+      "factor": "レジェンド",
+      "attribute": "electric",
+      "imagePath": "mari_f"
    },
    {
       "id": "dda4a5a7-b6ed-5341-9bec-c18f996d2476",
