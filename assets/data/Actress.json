@@ -893,6 +893,20 @@
       "imagePath": "kasumi_o_n"
    },
    {
+      "id": "1002ddcb-e68d-473d-8758-a3f479e5440a",
+      "name": "吾妻 京",
+      "shortName": "吾妻 京",
+      "attribute": "gravity",
+      "imagePath": "kei_a_n"
+   },
+   {
+      "id": "536f58d8-4bd0-4171-8c41-1d0f6e645c8d",
+      "name": "アンジェリカ・グラズノワ",
+      "shortName": "アンジェリカ・G",
+      "attribute": "freeze",
+      "imagePath": "angelica_n"
+   },
+   {
       "id": "3967a736-e74f-588b-ae57-ee4aa3f61db8",
       "name": "金潟 すぐみ",
       "shortName": "金潟 すぐみ",
