@@ -1,0 +1,2 @@
+public/images/actresses/*.jpg filter=lfs diff=lfs merge=lfs -text
+public/images/actresses/*.png filter=lfs diff=lfs merge=lfs -text
